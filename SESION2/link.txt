@@ -1,0 +1,5 @@
+https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Iterators_and_generators
+https://www.freecodecamp.org/espanol/news/programacion-asincrona-en-javascript-guia-para-principiantes/
+
+https://www.freecodecamp.org/espanol/news/programacion-orientada-a-objectos-en-javascript-explicado-con-ejemplos/
+https://developer.mozilla.org/es/docs/conflicting/Learn/JavaScript/Objects/Classes_in_JavaScript
