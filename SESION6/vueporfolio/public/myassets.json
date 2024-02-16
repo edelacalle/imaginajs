@@ -1,0 +1,76 @@
+{
+  "assets":[
+
+    {"grp1":"btc"   ,"slug":"bitcoin","alias":"cai.btc.elec1"  , "ammount":0.36199161, "container":"electrum", "bc":"bitcoin", "verified":true },
+    {"grp1":"btc"   ,"slug":"bitcoin","alias":"ecs.btc.elec2"  , "ammount":0.22014848, "container":"electrum", "bc":"bitcoin", "verified":true },
+    {"grp1":"btc"   ,"slug":"bitcoin","alias":"ecs.btc.btc1"   , "ammount":0.03755827, "container":"electrum", "bc":"bitcoin", "verified":true },
+    {"grp1":"btc"   ,"slug":"bitcoin","alias":"ecs.btc.bit2me" , "ammount":0.01801642, "container":"bit2me"  , "bc":"exchange", "verified":true },
+    {"grp1":"trust" ,"slug":"bitcoin","alias":"ecs.btc.tron1" , "ammount":0.019238 , "container":"trust"  , "bc":"tron", "verified":true },
+	
+    {"grp1":"nova" 		 , "slug":"wrapped-bitcoin", "alias":"ecs.btc.moonbean", "ammount":0.00655 ,"container":"nova"  , "bc":"hydradx", "verified":true },
+    {"grp1":"eth.ecalle" , "slug":"wrapped-bitcoin", "alias":"ecalle.wbtc" , "ammount":0.044 , "container":"wallet"  , "bc":"polygon", "verified":true ,"addr":"0x82add9"},
+
+	{"grp1":"revolut", "slug":"tron"  ,"alias":"ecs.tron.revol1", "ammount":1000.47 ,"container":"revolut" , "bc":"tron", "verified":true},
+	{"grp1":"cuprum", "slug":"bsc"  ,"alias":"ecs.cuc.cuprum", "ammount":184.81 ,"container":"wallet" , "bc":"bsc", "verified":true, "addr":"0xF888D4b36EF0f1573273725eac16d7872E46FE4"},
+	
+
+    {"grp1":"bit2me","slug":"polkadot"  , "alias":"ecs.dot.bit2me", "ammount":9.6839 , "price":7.57 , "container":"bit2me", "bc":"exchange", "verified":true},
+    {"grp1":"bit2me","slug":"b2m"       , "alias":"ecs.b2m.bit2me", "ammount":4726 , "price":0.0104 , "container":"bit2me",  "bc":"exchange", "verified":true },
+    {"grp1":"trust" ,"slug":"xrp"       , "alias":"ecs.xrp.alias2" , "ammount":3366.52  , "container":"xaman"  , "bc":"xrp", "verified":true },
+
+    {"grp1":"trust", "slug":"shiba-inu","alias":"ecs.shb.wallet1",   "ammount":39980000 , "price":0.00000967 , "container":"trust" , "bc":"ethereum", "verified":true},
+    {"grp1":"trust", "slug":"bittorrent","alias":"ecs.btt.wallet1",  "ammount":43455999 , "price":0.000001104 ,"container":"trust" , "bc":"tron", "verified":true} ,
+    {"grp1":"trust", "slug":"tron"      ,"alias":"ecs.tron.wallet1", "ammount":539.9 ,"container":"trust" , "bc":"tron", "verified":true},
+    {"grp1":"trust", "slug":"stellar"  ,"alias":"ecs.xlm.wallet1",   "ammount":350.98 ,"container":"trust" , "bc":"stellar", "verified":true},
+    {"grp1":"trust", "slug":"terra-luna","alias":"ecs.lunc.wallet1"  , "ammount":146545 , "price":0.000012229 ,"container":"trust", "bc":"terra", "verified":true},
+
+
+    {"grp1":"nova" , "alias":"ecs.weth.moonbean","slug":"weth"          , "ammount":0.67273 , "price":2538.95,  "container":"nova" },    
+    {"grp1":"yoroi", "alias":"ecs.ada.alias1","slug":"cardano"          , "ammount":10137.68 , "container":"yoroi"},
+
+
+    {"grp1":"tonkeeper", "alias":"ecs.ton.alias1","slug":"toncoin", "ammount":834.76 , "price":2.34 },
+    {"grp1":"hashpack", "alias":"ecs.hbar.hedera","slug":"hedera-hashgraph", "ammount":16603.00, "container":"hashpack" },
+    {"grp1":"polkawallet", "alias":"ecs.dot.alias1","slug":"polkadot"         , "ammount":384.0 , "price":7.57 },
+    
+    
+    { "grp1":"eth1.calleasesores.eth", "bc":"ethereum" , "alias":"eth1.calle.eth","slug":"ethereum" , "ammount":0.2588 },
+    { "grp1":"eth1.calleasesores.eth", "bc":"arbitrum" , "alias":"eth1.calle.arb","slug":"ethereum" , "ammount":0.0375 },
+    { "grp1":"eth1.calleasesores.eth",  "alias":"eth1.calle.bnb","slug":"bnb" , "ammount":0.0286 },
+    { "grp1":"eth1.calleasesores.eth",  "bc":"bsc"      , "alias":"eth1.calle.busd","slug":"busd" , "ammount":8.8861 },
+    { "grp1":"eth1.calleasesores.eth",  "bc":"ethereum" ,  "alias":"eth1.calle.drgn","slug":"dragon" , "ammount":95.52 },
+    { "grp1":"eth1.calleasesores.eth",  "bc":"arbitrum" ,  "alias":"eth1.calle.gmx","slug":"gmx" , "ammount":0.001 },
+    { "grp1":"eth1.calleasesores.eth",  "bc":"arbitrum" ,  "alias":"eth1.calle.link","slug":"link" , "ammount":0.001 },
+    
+    
+    {"alias":"ecs.usd.gatehub","slug":"tether"          , "ammount":5.64},
+    {"alias":"ecs.gemston.tonkeeper","slug":"gemston"   , "ammount":62.5, "price":0.06 },
+    
+    { "grp1":"eth.pen" , "alias":"penelope.eth"   ,"slug":"ethereum"        , "ammount":0.042  },
+    { "grp1":"eth.pen" , "alias":"penelope.matic" ,"slug":"polygon"         , "ammount":68.658  },
+    { "grp1":"eth.pen" , "alias":"penelope.orare" ,"slug":"orare"           , "ammount":129.75, "price":0.03 },
+    { "grp1":"eth.pen" , "alias":"penelope.poly"  ,"slug":"polydoge"        , "ammount":212000000, "price":0.000000006815 },
+
+    
+    { "grp1":"eth.ecalle" , "alias":"ecalle.matic"  ,"slug":"polygon"          , "ammount":1600.4676 },
+
+    { "grp1":"eth.ecalle2" , "alias":"ecalle2.svd"  ,"slug":"savedroid"          , "ammount":157500 , "price":0.00008588},
+    
+    { "grp1":"eth.ledger1" , "alias":"ledger1.eth"  ,"slug":"ethereum"   , "ammount":0.0074  },
+    { "grp1":"eth.ledger1" , "alias":"ledger1.matic"  ,"slug":"polygon"   , "ammount":1  },
+
+    { "bc":"polygon"   , "grp1":"eth.varias" , "alias":"armvarios.myst"  ,"slug":"mysterium"   , "ammount":9.0863 , "price":0.18 },
+    { "bc":"avalanche" , "grp1":"eth.varias" , "alias":"armvarios.usdt"  ,"slug":"tether"   , "ammount":0.7299   },
+    { "bc":"polygon"   , "grp1":"eth.varias" , "alias":"armvarios.avax"  ,"slug":"polygon"   , "ammount":0.0083 },
+    { "bc":"arbitrum"  , "grp1":"eth.varias" , "alias":"armvarios.arbitrum"  ,"slug":"ethereum"   , "ammount":0.0001 }
+
+
+    
+    
+
+ 
+
+
+  ]
+}
+
