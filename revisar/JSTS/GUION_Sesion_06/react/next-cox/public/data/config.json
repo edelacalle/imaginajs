@@ -1,0 +1,8 @@
+{
+    "api":{
+        "pubkey":"/api2/pubkey",
+        "coxa":"/api2/coxa",
+        "sendmail":"/api2/sendmail"
+    }
+
+}

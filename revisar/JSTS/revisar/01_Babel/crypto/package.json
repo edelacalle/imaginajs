@@ -1,0 +1,12 @@
+{
+  "name": "mycrypto",
+  "version": "1.0.0",
+  "description": "Modulo para desarrollar el acceso a las divisas",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

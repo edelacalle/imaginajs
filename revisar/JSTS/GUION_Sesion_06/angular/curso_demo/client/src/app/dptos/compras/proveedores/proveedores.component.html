@@ -1,0 +1,9 @@
+<p> {{ $proveedores | async | json }} </p>
+
+<p-table [value]="$proveedores | async " [tableStyle]="{'min-width': '50rem'}">
+    <ng-template pTemplate="body" let-proveedor let-columns="columns">
+        <tr>
+            <td>{{( proveedor["nombre"] )  }}</td>
+        </tr>
+    </ng-template>
+</p-table>

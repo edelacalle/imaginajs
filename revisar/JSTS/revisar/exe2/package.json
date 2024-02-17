@@ -1,0 +1,20 @@
+{
+  "name": "walletoffline",
+  "version": "1.0.0",
+  "description": "Billetera Ethereum Offline ( Necesario 20.11.0 )",
+  "main": "main.js",
+  "scripts": {
+    "makeall":"npm run make0 && npm run make1 && npm run make2 && npm run make3 && crypto.exe pass1234",
+    "make0": "esbuild main.js --bundle --platform=node --outfile=crypto-out.js",
+    "make1": "node --experimental-sea-config sea-config.json" ,
+    "make2": "node -e \"console.log(\"require('fs').copyFileSync(process.execPath,'crypto.exe')\")\" ",
+    "make3": "npx postject crypto.exe NODE_SEA_BLOB sea-prep.blob --sentinel-fuse NODE_SEA_FUSE_fce680ab2cc467b6e072b8b5df1996b2"
+    },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ethers": "^6.10.0",
+    "esbuild": "0.17.17"
+    }
+}
+

@@ -1,0 +1,13 @@
+{
+  "name": "users",
+  "version": "1.0.0",
+  "description": "Modulo users para la gestion de usuarios",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node index.js",
+    "calidad":"node usercalidad.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

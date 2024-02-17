@@ -1,0 +1,42 @@
+{
+ "admin": {
+  "pass": "admin",
+  "porfolio": [],
+  "role": "admin",
+  "flastlogin": 1707305937679
+ },
+ "guest": {
+  "pass": "guest",
+  "porfolio": [],
+  "role": "readonly"
+ },
+ "ecalle": {
+  "pass": "ecalle",
+  "porfolio": [
+   {
+    "msg": "no es "
+   }
+  ],
+  "role": "compras",
+  "flastlogin": 1707309634603
+ },
+ "nuevo": {},
+ "antonio": {
+  "porfolio": [
+   {
+    "usd": 2
+   }
+  ],
+  "pass": "pass lopez",
+  "role": "guest"
+ },
+ "antonio3": {
+  "porfolio": [
+   {
+    "usd": 2
+   }
+  ],
+  "pass": "pass lopez",
+  "role": "guest"
+ }
+}

@@ -1,0 +1,95 @@
+  .memorias img {
+            max-width: 80px;
+        }
+
+
+        .va-middle {
+            vertical-align: middle !important;
+        }
+         @media (min-width: 1200px) {
+            .team-info h5 {
+                font-size: 14px;
+            }
+
+            .team .team-info span {
+                font-size: 11px;
+            }
+        }
+
+
+     #chartdiv_894 {
+            width: 100%;
+            min-height: 500px;
+        }
+     .earth-container {
+            position: relative;
+            z-index: 1
+        }
+
+        .earth-container::before {
+            content: "";
+            display: block;
+            padding-top: 100%
+        }
+
+        .earth-container > canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            user-select: none
+        }
+
+        .earth-draggable {
+            cursor: all-scroll;
+            cursor: -webkit-grab;
+            cursor: grab
+        }
+
+        .earth-dragging * {
+            cursor: all-scroll;
+            cursor: -webkit-grabbing !important;
+            cursor: grabbing !important
+        }
+
+        .earth-clickable {
+            cursor: pointer
+        }
+
+        .earth-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            user-select: none;
+            pointer-events: none;
+            transform-origin: 0 0
+        }
+
+        .earth-overlay a, .earth-overlay input, .earth-overlay button {
+            pointer-events: all
+        }
+
+        .earth-hittest {
+            position: fixed;
+            width: 200vh;
+            max-width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 999999
+        }
+
+        .earth-hittest svg {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0;
+            opacity: 0
+        }
+
+
+
+       .inner table thead tr th {
+            background-color: #606161;
+            color: white;
+        }
+

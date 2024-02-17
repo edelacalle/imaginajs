@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Webpack App</title>
+        <script type="module">
+            import {eventBus}  from '/utils.js';
+            window.eventBus = eventBus;
+            window.eventBus.subscribe('calc.result', ( p ) => document.getElementById("res").innerHTML=p ) 
+        </script>
+    </head>
+    <body>
+        <h1>Nuestra calculadora</h1>
+        <table border="1" width="100%">
+            <thead>
+                <tr>
+                    <th colspan="10">
+                        <button onclick="eventBus.publish('calc.key' ,'+')">+</button>
+                        <button onclick="eventBus.publish('calc.key' ,'-')">-</button>
+                        <button onclick="eventBus.publish('calc.key' ,'=')">=</button>
+                        <button onclick="eventBus.publish('calc.key' ,'c')">C</button>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><button onclick="eventBus.publish('calc.key','1')">1</button></td>
+                    <td><button onclick="eventBus.publish('calc.key','2')">2</button></td>
+                    <td><button onclick="eventBus.publish('calc.key','3')">3</button></td>
+                    
+                </tr>
+                <tr>
+                    <td><button onclick="eventBus.publish('calc.key','4')">4</button></td>
+                    <td><button onclick="eventBus.publish('calc.key','5')">5</button></td>
+                    <td><button onclick="eventBus.publish('calc.key','6')">6</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="eventBus.publish('calc.key','7')">7</button></td>
+                    <td><button onclick="eventBus.publish('calc.key','8')">8</button></td>
+                    <td><button onclick="eventBus.publish('calc.key','9')">9</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="eventBus.publish('calc.key','0')">0</button></td>
+                </tr>
+
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">Resultado</td>
+                    <td id="res"></td>
+                </tr>
+            </tfoot>
+        </table>
+        <div id="root" />
+
+
+    </body>
+</html>

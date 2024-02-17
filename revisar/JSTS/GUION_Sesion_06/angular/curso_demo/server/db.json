@@ -1,0 +1,27 @@
+{
+    "usuarios":[
+        {"id":1, "user":"admin","pass":"admin" , "permit":["/home","/compras"]},
+        {"id":2, "user":"guest","pass":"password" , "permit":["/home"]} 
+    ],
+    "clientes":[
+        {"id":"1",  "nombre":"Cliente1"},
+        {"id":"2",  "nombre":"Cliente2"}
+    ],
+    "proveedores":[
+        {"id":"1",  "nombre":"Proveedor1" , "cif":"CIF Proveedor1"},
+        {"id":"2",  "nombre":"Proveedor2" , "cif":"CIF Proveedor2"},
+        {"id":"3",  "nombre":"Proveedor3" , "cif":"CIF Proveedor3"}
+        
+    ],
+    "facturas_compra":[
+        {"id":1, "proveedor":1 , "concepto":"Factura 1 Compra Prov 1", "base_impo":123 },
+        {"id":2, "proveedor":1 , "concepto":"Factura 2 Compra Prov 1", "base_impo":456 },
+        {"id":3, "proveedor":1 , "concepto":"Factura 3 Compra Prov 1", "base_impo":789 },
+        {"id":4, "proveedor":2 , "concepto":"Factura 1 Compra Prov 2", "base_impo":111 },
+        {"id":5, "proveedor":2 , "concepto":"Factura 2 Compra Prov 2", "base_impo":222 }
+    ],
+    "facturas_venta":[]
+    
+
+
+}

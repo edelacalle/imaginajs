@@ -1,0 +1,69 @@
+.cox-background { background-image: linear-gradient(to bottom right, #D9E141, #008050) }
+.cai-ticker {
+    padding: 2px 8px;
+    /*border: 1px solid #42A042;*/
+    border-radius: 5px;
+    min-width: 220px;
+    background: white;
+    max-width: 245px;
+    height: 17
+
+}
+.cai-ticker p {
+    line-height: 1.4;
+    font-size: 10px;
+    font-family: Proximanova !important;
+    letter-spacing: 1px !important;
+}
+
+
+.footer {
+    background-color: #EDEDED;
+    color: #626262 !important;
+}
+
+.footer-useful-link ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #626262
+}
+
+.footer p, footer a, footer h6 {
+    color: #626262 !important;
+}
+
+.footer-useful-link ul li {
+    margin-bottom: 0;
+    list-style-type: none;
+    
+}
+
+.footer-widget {
+    border-top: none;
+}
+
+.footer-widget p, .footer-widget a, .footer p, .footer-useful-link ul li a, .footer a, .footer h6, .footer p, .masonry-item .testimonial-widget .testimonial-info .testimonial-name span, .mega-menu .menu-links > li > a {
+    font-size: 16px;
+}
+
+
+.border-empleo {
+    border: 2px solid #42a042;
+    box-shadow: 0 0 0 0 #000;
+    animation: dark-wlo-pulse 1.8s infinite;
+    border-radius: 10px;
+}
+.border-historia {
+    border: 2px solid #1345FF;
+    box-shadow: 0 0 0 0 #000;
+    animation: dark-wlo-pulse 1.8s infinite;
+    border-radius: 10px;
+}
+
+.border-radius-10 {
+    border-radius: 10px;
+}
+
+.border-radius-20 {
+    border-radius: 20px;
+}

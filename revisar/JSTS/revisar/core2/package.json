@@ -1,0 +1,16 @@
+{
+  "name": "core1",
+  "version": "1.0.0",
+  "description": "Mi primera prueba de empaquetado npm",
+  "main": "index.js",
+  "scripts": {
+    "ejecuta": "node index.js",
+    "watch": "npx nodemon"
+  },
+  "author": "Clase Javascript",
+  "license": "ISC",
+  "dependencies": {
+    "convert-csv-to-json": "^2.0.0",
+    "nodemon": "^3.0.3"
+  }
+}

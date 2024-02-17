@@ -1,0 +1,1691 @@
+/*
+
+Template: Webster - Responsive Multi-purpose HTML5 Template
+Author: potenzaglobalsolutions.com
+Design and Developed by: potenzaglobalsolutions.com
+
+NOTE:  This file includes all shortcode css. If you don't want to use any shortcode from below. You can simply remove that line from this file.
+
+*/
+
+/*shortcode*/
+/*
+Template:  Webster - Responsive Multi-purpose HTML5 Template
+Author: potenzaglobalsolutions.com
+Design and Developed by: potenzaglobalsolutions.com
+
+NOTE: This file contains Accordion CSS.
+*/
+
+/***************************
+      Accordion
+***************************/
+.accordion .acd-group .acd-heading:before { font-family: fontawesome; }
+.accordion .acd-group .acd-heading:before { cursor: pointer; position: absolute; top: 6px; right: 20px; display: block; padding: 3px 6px 2px; content: "\f105"; font-size: 22px; line-height: 38px; }
+.accordion .acd-group > .acd-heading > span { margin-right: 15px; }
+.accordion .acd-heading { font-weight: 500; position: relative; padding: 20px 0; color: #353535; line-height: normal; cursor: pointer; background-color: transparent; margin-bottom: 0px; display: block; font-family:  sans-serif; text-transform: uppercase; border-radius: 3px;  }
+.acd-des { padding: 0 20px 20px 0; }
+.accordion .acd-group.acd-active .acd-heading, .accordion .acd-group .acd-heading:hover { color: #42A042; }
+.accordion .acd-group.acd-active .acd-heading:before { content: "\f107"; }
+.accordion .acd-group.acd-active .acd-heading span { color: #fff; }
+
+/*plus-icon*/
+.accordion.plus-icon .acd-group.acd-active .acd-heading:before { content: "\f068"; font-size: 14px; }
+.accordion.plus-icon .acd-group .acd-heading:before { content: "\f067"; font-size: 14px; }
+
+/*plus-icon round*/
+.accordion.plus-icon.round .acd-group.acd-active .acd-heading:before { content: "\f056"; font-size: 14px; }
+.accordion.plus-icon.round .acd-group .acd-heading:before { content: "\f055"; font-size: 14px; }
+
+/*gray*/
+.accordion.gray .acd-heading { background-color: #f7f7f7; }
+.accordion.gray .acd-heading  { margin-bottom: 20px; padding: 20px 30px; }
+.accordion.gray .acd-des { padding: 0 30px 20px; }
+.accordion.gray .acd-group.acd-active .acd-heading, .accordion.gray .acd-group .acd-heading:hover { color: #fff; background: #42A042; }
+
+/*shadow*/
+.accordion.shadow .acd-heading { box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1); background: #ffffff; }
+.accordion.shadow .acd-heading  { margin-bottom: 20px; padding: 20px 30px; }
+.accordion.shadow .acd-des  { padding: 0 30px 20px; }
+.accordion.shadow .acd-group.acd-active .acd-heading, .accordion.shadow .acd-group .acd-heading:hover { color: #fff; background: #42A042; }
+
+
+/*border*/
+.accordion.accordion-border .acd-heading { background: transparent; border:1px solid #eeeeee; box-shadow: none; }
+.accordion.accordion-border .acd-heading  { margin-bottom: 20px; padding: 20px 30px; }
+.accordion.accordion-border .acd-des  { padding: 0 30px 20px; }
+.accordion.accordion-border .acd-group.acd-active .acd-heading, .accordion.accordion-border .acd-group .acd-heading:hover { color: #fff; background: #42A042; }
+
+/* Accordion Simple */
+.accordion.animated .acd-group .acd-heading { box-shadow: none; border:none; font-size: 18px; margin-bottom: 0; color:#363636; text-transform: inherit; font-weight: 700; padding: 20px 0px 0; }
+.accordion.animated .acd-group.acd-active .acd-heading { font-size: 28px; color: #42A042; margin-bottom: 20px; background: none !important;}
+.accordion.animated .acd-group .acd-heading:hover{background: none !important; color: #42A042;}
+.accordion.animated .acd-group .acd-heading::before { display: none; }
+.accordion.animated .acd-group .acd-des { padding: 0 30px 20px; }
+
+.accordion.animated.dark-bg .acd-group.acd-active .acd-heading { color: #ffffff; }
+.accordion.animated.dark-bg .acd-group .acd-heading:hover { color: #ffffff; }
+
+/* No border radius*/
+.accordion.no-radius .acd-heading{ border-radius: 0; }
+
+/*bootstrap accordion*/
+#accordion .card { margin-bottom: 10px; }
+#accordion .card .card-header  { box-shadow: none; border-bottom: 0; }
+#accordion .card .card-header button { color: #42A042; font-weight: 500; padding: 0; text-decoration: none; }
+#accordion .card .card-header button.collapsed { color: #323232; }
+
+
+/*
+Template:  Webster - Responsive Multi-purpose HTML5 Template
+Author: potenzaglobalsolutions.com
+Design and Developed by: potenzaglobalsolutions.com
+
+NOTE: This file contains Action Box CSS.
+*/
+
+/*************************************
+        action-box
+**************************************/
+.action-box { position: relative; }
+.action-box a.button { position: absolute; right: 0; top: 50%; margin-top: -20px; }
+.action-box strong { font-weight: bold; }
+.action-box p { margin-bottom: 0; }
+
+.action-box .action-box-text { padding-right: 230px; }
+
+/*border*/
+.action-box.action-box-border { padding: 30px; border:1px solid #eeeeee; }
+.action-box.action-box-border a.button { right: 30px; }
+
+/*border center*/
+.action-box.center { text-align: center; }
+.action-box.center a.button { position: relative; top: inherit; right: inherit; margin-top: 15px; }
+.action-box.center .action-box-text { padding-right: 0; }
+
+/*theme-bg*/
+.action-box.theme-bg { padding: 30px; }
+.action-box.theme-bg a.button { right: 30px; }
+.action-box.theme-bg h3, .action-box.theme-bg p { color: #ffffff; }
+
+/*theme-bg*/
+.action-box.black-bg { padding: 30px; }
+.action-box.black-bg a.button { right: 30px; }
+.action-box.black-bg h3, .action-box.black-bg p { color: #ffffff; }
+
+/*dark-theme-bg*/
+.action-box.dark-theme-bg { padding: 30px; }
+.action-box.dark-theme-bg a.button { right: 30px; }
+.action-box.dark-theme-bg h3, .action-box.dark-theme-bg p { color: #ffffff; }
+
+/*gray-bg*/
+.action-box.gray-bg { padding: 30px; }
+.action-box.gray-bg a.button { right: 30px; }
+
+/*white-bg*/
+.action-box.white-bg { padding: 30px; }
+.action-box.white-bg a.button { right: 30px; }
+
+/*gray-bg*/
+.action-box.parallax { padding: 100px 30px; }
+.action-box.parallax h3, .action-box.parallax p { color: #ffffff; }
+
+/*full-width*/
+.action-box.full-width a.button { right: 15px; }
+
+/*gray-bg*/
+.action-box.pattern { padding: 100px 30px; }
+
+/*small*/
+.action-box.small { padding: 40px 35px;  }
+.action-box.small h3, .action-box.small p, .action-box.small .social-icons { position: relative; }
+.action-box.small a.button { position: relative; top: inherit; right: inherit; margin-top: 15px; }
+.action-box.small .action-box-text { padding-right: 0; }
+
+
+/*
+Template:  Webster - Responsive Multi-purpose HTML5 Template
+Author: potenzaglobalsolutions.com
+Design and Developed by: potenzaglobalsolutions.com
+
+NOTE: This file contains blockquote CSS.
+*/
+
+/*************************
+    blockquote
+*************************/
+
+.blockquote { font-size: 14px; padding: 10px 20px; margin: 0 0 20px; font-size: 17px; border-left: 5px solid #eee; position: relative; }
+.blockquote cite { display: block; font-weight: 600; margin-top: 10px; }
+
+/*blockquote-right*/
+.blockquote-right { text-align: right; border-right: 5px solid #eee; border-left: 0; padding: 0 20px 0; }
+
+/*blockquote-gray*/
+.blockquote.gray-bg {border-left: 5px solid #42A042; }
+.blockquote-right.gray-bg { text-align: right; border-right: 5px solid #42A042; border-left: 0; padding: 0 20px 0; }
+
+/*quote*/
+.quote { padding-top: 50px; }
+.quote:before { content: "\201C"; font-family: Georgia, serif; font-size: 100px; font-weight: bold; color: #eee; position: absolute; left: 14px;top: -30px; }
+
+/*quote right*/
+.blockquote-right.quote:before { left: inherit; right: 14px; }
+
+/*theme-bg*/
+.blockquote.theme-bg { border: 0px; color: #ffffff; padding: 70px 30px 30px; border-radius: 6px; }
+.blockquote.theme-bg:before { left: 24px; top: -10px; }
+
+/*theme-bg*/
+.blockquote.black-bg { border: 0px; color: #ffffff; padding: 70px 30px 30px; border-radius: 6px; }
+.blockquote.black-bg:before { left: 24px; top: -10px; left: inherit; }
+
+/*
+Template:  Webster - Responsive Multi-purpose HTML5 Template
+Author: potenzaglobalsolutions.com
+Design and Developed by: potenzaglobalsolutions.com
+
+NOTE: This file contains list style CSS.
+*/
+
+/*************************
+	  list-style
+*************************/
+ul.list { padding:0; margin:0;  }
+ul.list li { margin:5px 0; padding-left:24px; position: relative; line-height: 28px; }
+ul.list i { position: absolute; left: 0; top: 5px; }
+ul.list.theme-color li i { color: #42A042; }
+ul.list.theme-color li { color: #333333; }
+ul.list li:after { content:""; font-family: 'FontAwesome','icons-betterware'; position:absolute; color:#42A042; left:0; top:0; }
+
+/* Ul List Mark */
+ul.list-mark{padding:0; margin:0;}
+ul.list-mark li{list-style-type:none; padding-left:25px; position:relative;}
+ul.list-mark li:after{content:"\f00c";}
+
+/* Ul List Arrow */
+ul.list-arrow{padding:0; margin:0;}
+ul.list-arrow li{list-style-type:none; padding-left:25px; position:relative;}
+ul.list-arrow li:after{content:"\f105"; font-size:18px;}
+
+/* Ul List Hand */
+ul.list-hand{padding:0; margin:0;}
+ul.list-hand li{list-style-type:none; padding-left:25px; position:relative;}
+ul.list-hand li:after{content:"\f0a4";}
+
+ul.list-exp{padding:0; margin:0;}
+ul.list-exp li{list-style-type:none; padding-left:25px; position:relative;}
+ul.list-exp li:after{content:"\e850"; font-size:25px;}
+
+ul.list-prod{padding:0; margin:0;}
+ul.list-prod li{list-style-type:none; padding-left:25px; position:relative;}
+ul.list-prod li:after{content:"\e852"; font-size:25px;}
+
+ul.list-dist{padding:0; margin:0;}
+ul.list-dist li{list-style-type:none; padding-left:25px; position:relative;}
+ul.list-dist li:after{content:"\e851"; font-size:25px;}
+
+ul.list-asoc{padding:0; margin:0;}
+ul.list-asoc li{list-style-type:none; padding-left:25px; position:relative;}
+ul.list-asoc li:after{content:"\e853"; font-size:25px;}
+
+/* Ul List Edit */
+ul.list-edit{padding:0; margin:0;}
+ul.list-edit li{list-style-type:none; padding-left:25px; position:relative;}
+ul.list-edit li:after{content:"\f040";}
+/*
+Template:  Webster - Responsive Multi-purpose HTML5 Template
+Author: potenzaglobalsolutions.com
+Design and Developed by: potenzaglobalsolutions.com
+
+NOTE: This file contains Features box CSS.
+*/
+
+/*************************************
+             Features all
+ **************************************/
+.feature-text { text-align: center; }
+.feature-text.text-left { text-align: left; }
+.feature-text.text-left .feature-icon span, .feature-text.text-left .feature-icon i { padding-left: 0;  }
+.feature-text.text-right .feature-icon span, .feature-text.text-right .feature-icon i { padding-right: 0; }
+.feature-text.text-right { text-align: right; }
+.feature-text .feature-icon span, .feature-text .feature-icon i { font-size: 40px; margin-bottom: 30px; display: inline-block; padding-left: 15px; transition: 0.5s ease-in-out; -webkit-transition: 0.5s ease-in-out; -o-transition: 0.5s ease-in-out; -moz-transition: 0.5s ease-in-out; }
+.feature-text.round .feature-icon span, .feature-text.round .feature-icon i { width: 70px; height: 70px; line-height: 70px;  display: inline-block; font-size: 26px; border-radius: 50%; padding-left: 0px; }
+.feature-text.feature-border .feature-icon span, .feature-text.feature-border .feature-icon i { color: #323232; background: transparent; border:2px solid #323232; padding-left: 0px; }
+.feature-text.gray-icon .feature-icon span, .feature-text.gray-icon .feature-icon i {  color: #323232; background: #f6f7f8; padding-left: 0px; }
+.feature-text.theme-icon .feature-icon span, .feature-text.theme-icon .feature-icon i { color: #ffffff; background: #42A042; padding-left: 0px; }
+.feature-text.shadow .feature-icon span, .feature-text.shadow .feature-icon i {  color: #323232; background: #ffffff; box-shadow: 0 4px 20px rgba(0,0,0,0.09); padding-left: 0px; }
+.feature-text.square .feature-icon span, .feature-text.square .feature-icon i { width: 70px; height: 70px; line-height: 70px;  display: inline-block; font-size: 26px; padding-left: 0px;}
+.feature-text.text-center .feature-icon span, .feature-text.text-center .feature-icon i { padding-left: 0; }
+
+/*left-icon*/
+.feature-text.left-icon .feature-info { text-align: left; padding-left: 60px; }
+.feature-text.left-icon .feature-icon { position: absolute; left: 0;  }
+
+/*right-icon*/
+.feature-text.right-icon .feature-info { text-align: right; padding-right: 60px; }
+.feature-text.right-icon .feature-icon { position: absolute; right: 0;  }
+
+.feature-text.left-icon.round .feature-info  { padding-left: 80px; }
+.feature-text.right-icon.round .feature-info  { padding-right: 80px; }
+
+.feature-text.left-icon.square .feature-info  { padding-left: 100px; }
+.feature-text.right-icon.square .feature-info  { padding-right: 100px; }
+
+ /*box-shadow*/
+.feature-text.box-shadow { box-shadow: 0 0px 30px rgba(0,0,0,0.09); padding: 40px; transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out;  }
+.feature-text.box-shadow:hover { box-shadow: 0 0px 70px rgba(0,0,0,0.09); }
+
+/*border-box*/
+.feature-text.border-box { box-shadow: 0 0px 1px rgba(0,0,0,0.5); padding: 40px;}
+
+/*button*/
+.feature-text .button { margin-top: 10px; }
+.feature-text.round:hover .feature-icon i, .feature-text.round:hover .feature-icon span { background: #42A042; color: #ffffff; border-color: #42A042; }
+.feature-text.theme-icon:hover .feature-icon span, .feature-text.theme-icon:hover .feature-icon i { background: #323232; color: #ffffff; }
+.feature-text.square:hover .feature-icon i, .feature-text.square:hover .feature-icon span { background: #42A042; color: #ffffff; border-color: #42A042; }
+.feature-text.square.theme-icon:hover .feature-icon span, .feature-text.square.theme-icon:hover .feature-icon i { background: #323232; color: #ffffff; }
+
+ /*feature-box*/
+ .awesome-features .img-side img { position: absolute; top: -30px; left: 0; }
+.feature-box {  border:1px solid #e6e6e6; padding: 1px; position: relative; -webkit-transition: all 0.3s ease-out 0s; -moz-transition: all 0.3s ease-out 0s; -ms-transition: all 0.3s ease-out 0s; -o-transition: all 0.3s ease-out 0s; transition: all 0.3s ease-out 0s; z-index: 1; }
+.feature-box-content { position: relative; padding: 30px; padding-bottom: 0; z-index: 9; }
+.feature-box i { width: 100%; font-size: 30px; color: #42A042; padding: 0 10px;  -webkit-transition: all 0.3s ease-out 0s; -moz-transition: all 0.3s ease-out 0s; -ms-transition: all 0.3s ease-out 0s; -o-transition: all 0.3s ease-out 0s; transition: all 0.3s ease-out 0s;}
+.feature-box h4 { text-transform: none; padding:30px 0 0px; font-weight: 500; transition: all 0.3s ease-out 0s; }
+.feature-box p {   transition: all 0.3s ease-out 0s; }
+.feature-box a { font-size: 16px; font-weight: 300; color: #808080; margin: 25px 0 10px; padding: 0 30px; display: block; position: relative; z-index: 3; }
+.feature-box .feature-box-img { bottom: 0; left: 0; opacity: 0; position: absolute; right: 0; top: 0; z-index: 0; -webkit-transition: all 0.3s ease-out 0s; -moz-transition: all 0.3s ease-out 0s; -ms-transition: all 0.3s ease-out 0s; -o-transition: all 0.3s ease-out 0s; transition: all 0.3s ease-out 0s; z-index: 0; background-size: cover; background-position: center center; }
+.feature-box .feature-border { position: absolute; background: #42A042; height: 0px; bottom: 0; left: 0; z-index:2; width: 100%; -webkit-transition: all 0.3s ease-out 0s; -moz-transition: all 0.3s ease-out 0s; -ms-transition: all 0.3s ease-out 0s; -o-transition: all 0.3s ease-out 0s; transition: all 0.3s ease-out 0s;  }
+.feature-box:hover .feature-box-img, .feature-box.active .feature-box-img { opacity: 1; }
+.feature-box:hover .feature-border, .feature-box.active .feature-border { height: 45px; }
+.feature-box:hover i, .feature-box.active i { background: rgba(255, 255, 255, 0); color: #fff; }
+.feature-box:hover h4, .feature-box.active h4, .feature-box:hover p, .feature-box.active p { color: #fff; }
+.feature-box:hover a, .feature-box.active a {  color: #fff; }
+.feature-box:hover:before, .feature-box.active:before { background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0; color: #fff; content: ""; display: inline-block; height: 100%;
+  left: 0; position: absolute; top: 0; width: 100%; z-index: 1;  -webkit-transition: all 0.3s ease-out 0s; -moz-transition: all 0.3s ease-out 0s; -ms-transition: all 0.3s ease-out 0s; -o-transition: all 0.3s ease-out 0s; transition: all 0.3s ease-out 0s; }
+/*
+Template:  Webster - Responsive Multi-purpose HTML5 Template
+Author: potenzaglobalsolutions.com
+Design and Developed by: potenzaglobalsolutions.com
+
+NOTE: This file contains Dropcap & Highlight CSS.
+*/
+
+/*************************************
+           Dropcap & Highlight
+ **************************************/
+ .dropcap { width: 40px; height: 40px; line-height: 40px; float: left; border-radius: 50%; background: #42A042; text-align: center; color: #ffffff; margin-right: 10px; }
+ .dropcap.dropcap-border { background: transparent; border:2px solid #42A042; color: #42A042; }
+ .dropcap.gray { background: #f6f7f8; color: #42A042; }
+ .dropcap.large { width: 70px; height: 70px; line-height: 70px; font-size: 30px; }
+ .dropcap.square {  border-radius: 3px; }
+ /*
+Template:  Webster - Responsive Multi-purpose HTML5 Template
+Author: potenzaglobalsolutions.com
+Design and Developed by: potenzaglobalsolutions.com
+
+NOTE: This file contains divider CSS.
+*/
+
+/*************************************
+          divider
+ **************************************/
+.divider { border-bottom: 1px solid rgba(0, 0, 0, 0.1);  }
+.divider.dotted { border-bottom: 2px dotted rgba(0, 0, 0, 0.1);  }
+.divider.dashed { border-bottom: 2px dashed rgba(0, 0, 0, 0.1);  }
+.divider.double { border-bottom: 5px double rgba(0, 0, 0, 0.1);  }
+.divider.outset { border-bottom: 3px outset rgba(0, 0, 0, 0.1);  }
+
+/*icon*/
+.divider.icon { border: 0; color: #ccc; width: 100%; overflow: hidden; text-align: center;  }
+.divider.icon:after, .divider.icon:before, .divider.icon:after, .divider.icon:before { border-bottom: 1px solid rgba(0, 0, 0, 0.2); content: ""; display: inline-block; height: 10px;
+    margin: 0 -4px 0 -100%; vertical-align: top; width: 50%; }
+.divider.icon::after, .divider.icon::after { margin: 0 -100% 0 0; }
+.divider.icon i, .divider.icon span, .divider.icon i, .divider.icon span { margin: 0 20px 0 24px; }
+
+/*icon left*/
+.divider.icon.left i, .divider.icon.left span { float: left; margin: 0 40px 0 0; }
+.divider.icon.right i, .divider.icon.right span { float: right; margin: 0 0 0 40px; }
+
+/*medium*/
+.divider.medium { width: 40%; margin: 0 auto; }
+
+/*small*/
+.divider.small { width: 20%; margin: 0 auto; }
+.divider.light { border-color: rgba(255, 255, 255, 0.1); }
+/*
+Template:  Webster - Responsive Multi-purpose HTML5 Template
+Author: potenzaglobalsolutions.com
+Design and Developed by: potenzaglobalsolutions.com
+
+NOTE: This file contains Counter CSS.
+*/
+
+/*************************
+        Counter
+*************************/
+.counter{ position:relative; color:#353535; min-height:60px; }
+.counter .icon { font-size: 40px; }
+.counter .timer { display: block; font-size: 44px; font-weight: 600; line-height: 40px; margin: 20px 0 5px; }
+.counter label { font-size: 15px; font-weight: 600; margin: 10px 0 0; position: relative; text-transform: capitalize; }
+.counter.text-white { color:#ffffff; }
+.counter.text-white label { color:#ffffff; }
+.counter.text-white span { color:#ffffff; }
+.counter.theme-color { color:#42A042; }
+.counter.theme-color label { color:#42A042; }
+.counter.theme-color span { color:#42A042; }
+
+
+/*counter-small*/
+.counter.counter-small .timer { font-size: 30px; font-weight: 600; }
+.counter.counter-small label { font-size: 16px; font-weight: 400; margin-top: 20px; }
+.counter.counter-small .icon {  font-size: 30px; line-height: 40px; }
+
+/*big-counter*/
+.counter.big-counter .timer { font-size: 70px; font-weight: 600; }
+.counter.big-counter label { font-size: 18px; font-weight: 300; margin-top: 20px; }
+.counter.big-counter icon {  font-size: 50px; line-height: 60px; }
+
+ /*left-icon*/
+.counter.left-icon { position:relative; padding-left:70px; }
+.counter.left-icon .icon { font-size:40px; line-height:50px; position:absolute; left:0; bottom:auto; top:0; }
+.counter.left-icon span { margin:0; line-height:40px; }
+
+ /*left-icon*/
+.counter.right-icon { position:relative; padding-right:70px; }
+.counter.right-icon .icon { font-size:40px; line-height:50px; position:absolute; right:0; bottom:auto; top:0; }
+.counter.right-icon span { margin:0; line-height:40px; text-align: right; }
+.counter.right-icon label  { text-align: right; display: block; }
+/*
+Template:  Webster - Responsive Multi-purpose HTML5 Template
+Author: potenzaglobalsolutions.com
+Design and Developed by: potenzaglobalsolutions.com
+
+NOTE: This file contains countdown CSS.
+*/
+
+/*************************
+    countdown
+*************************/
+.countdown { display: inline-block; text-align: center; margin: 0px 20px; }
+.countdown span { font-size: 40px; line-height: 40px; }
+.countdown p { font-size: 16px; text-transform: capitalize; margin-bottom: 0; }
+
+/*small*/
+.countdown.small { display: inline-block; text-align: center; margin: 0px 10px; }
+.countdown.small span { font-size: 30px; line-height: 30px; }
+
+/*medium*/
+.countdown.medium { display: inline-block; text-align: center; margin: 0px 30px; }
+.countdown.medium span { font-size: 50px; line-height: 50px; }
+.countdown.medium p { font-size: 20px; text-transform: capitalize; }
+
+/*large*/
+.countdown.large { display: inline-block; text-align: center; margin: 0px 20px; }
+.countdown.large span { font-size: 70px; line-height: 70px; }
+.countdown.large p { font-size: 24px; text-transform: capitalize; }
+
+/*gray-bg */
+.countdown.gray-bg { padding: 10px; }
+
+/*border*/
+.countdown.countdown-border { padding: 10px; border:2px solid #eeeeee; }
+
+/*border*/
+.countdown.round { padding: 30px; border:7px solid #eeeeee; border-radius: 50%;  width: 140px; height: 140px; }
+.countdown.round.small { width: 100px; height: 100px; padding: 15px 10px; }
+.countdown.round.medium { width: 150px; height: 150px; padding: 15px; }
+.countdown.round.medium span { line-height: 68px;  }
+.countdown.round.large { width: 190px; height: 190px; padding: 20px; }
+.countdown.round.large span { line-height: 92px; }
+
+.countdown.text-white p { color: #ffffff; }
+.countdown.round.text-white { border-color: rgba(255, 255, 255, 0.3); }
+/*
+Template:  Webster - Responsive Multi-purpose HTML5 Template
+Author: potenzaglobalsolutions.com
+Design and Developed by: potenzaglobalsolutions.com
+
+NOTE: This file contains Clients logo CSS.
+*/
+
+/*************************
+        Clients
+*************************/
+.clients-list { overflow: hidden; }
+.clients-list ul li { float: left; position: relative; width: 20%; padding: 20px; }
+.clients-list.clients-border ul li:before { height: 100%; top: 0; left: -1px; border-left: 1px solid #eee; }
+.clients-list.clients-border ul li:after, .clients-list.clients-border ul li:before { content: ''; position: absolute; }
+.clients-list.clients-border ul li:after { width: 100%; height: 0; top: auto; left: 0; bottom: -1px; border-bottom: 1px solid #eee; }
+
+/*column-4*/
+ .clients-list.column-4 ul li { float: left; position: relative; width: 25%; padding: 10px; }
+
+/*column-3*/
+.clients-list.column-3 ul li { float: left; position: relative; width: 33.333%; padding: 10px; }
+
+/*column-2*/
+.clients-list.column-2 ul li { float: left; position: relative; width: 50%; padding: 10px; }
+
+/*
+Template:  Webster - Responsive Multi-purpose HTML5 Template
+Author: potenzaglobalsolutions.com
+Design and Developed by: potenzaglobalsolutions.com
+
+NOTE: This file contains button CSS.
+*/
+
+/***************************
+        button
+***************************/
+.button { background: #42A042; padding: 10px 20px; font-size: 13px; letter-spacing: 1px; font-family:  sans-serif; border: 0; color: #ffffff; text-transform: uppercase; font-weight: 500; display: inline-block; border-radius: 3px; text-align: center; border:2px solid #42A042; cursor: pointer; }
+.button + .button {margin-left: 20px;}
+.button:hover, .button:focus { background: #353535; color: #ffffff; border-color: #353535; }
+button { transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; }
+.button.black { background: #353535; color: #ffffff; border:2px solid #353535;}
+.button.black:hover, .button.black.active, .button.black:focus { background: #42A042; color: #ffffff; border-color: #42A042; }
+.button.gray { background: #e0e0e0; color: #353535; border:2px solid #e0e0e0; }
+.button.gray:hover, .button.gray.active, .button.gray:focus { background: #42A042; color: #ffffff; border-color: #42A042;}
+.button.white { background: #fff; color: #42A042; border-color: #ffffff; }
+.button.white:hover, .button.white:focus { background: #353535; color: #ffffff; border-color: #353535;}
+.button.button-border { background: transparent; border: 2px solid #42A042; color: #323232; }
+.button.button-border:hover, .button.button-border:focus { background: #42A042; color: #ffffff; border-color: #42A042; }
+.button.button-border.gray { background: transparent; border: 2px solid #e0e0e0; color: #aaaaaa; }
+.button.button-border.gray:hover, .button.button-border.gray:focus { background: #42A042; color: #ffffff; border-color: #42A042; }
+.button.button-border.white { background: transparent; border: 2px solid #fff; color: #fff; }
+.button.button-border.white:hover, .button.button-border.white:focus { background: #fff; color: #42A042; border-color: #fff; }
+.button.button-border.black { background: transparent; border: 2px solid #353535; color: #353535; }
+.button.button-border.black:hover, .button.button-border.black:focus { background: #353535; color: #ffffff; border-color: #353535; }
+.button.icon i { margin-left: 10px; }
+/*button with icon*/
+.button.arrow { background: transparent; border: none; color: #42A042; padding: 0; font-weight: 600; }
+.button.arrow i { padding-left: 10px; font-size: 16px; }
+.button.arrow:hover { color: #353535; }
+.button.arrow.white { color: #ffffff; border: none; }
+.button.arrow.white:hover { color: #aaaaaa; background: transparent; }
+.button.icon-color{background: none; border: none; color: #42A042; padding: 0}
+.button.icon-color:hover{color: #353535; background: transparent; }
+.button.icon-color i{border: 1px solid #42A042; border-radius: 50%; height: 22px; width: 22px; line-height: 20px;  margin-left: 10px; transform: translateX(0px); transition: all 0.5s cubic-bezier(0.76, 0.46, 0.22, 1) 0s;}
+.button.icon-color:hover i { background: #353535; border-color: #353535; color: #ffffff; transform: translateX(3px);}
+.button.icon-color.white:hover { color: #ffffff; border:none; background: none;}
+.button.icon-color.white:hover i { background: #ffffff; color: #42A042; border-color: #ffffff; }
+.button-black-iocn .button.icon-color { color: #ffffff; }
+.button-black-iocn .button.icon-color i { border-color: #ffffff; }
+.button-black-iocn .button.icon-color:hover i { background: #ffffff; color: #323232; }
+.button-black-iocn .button.icon-color:hover { color: #323232; }
+.big-button { padding: 28px 26px; font-size: 24px; }
+.big-button span { display: block; font-size: 12px; margin-top: 6px;}
+.button.x-small { padding: 8px 14px; font-size: 12px; }
+.button.small { padding: 10px 18px; font-size: 12px; }
+.button.medium { padding: 12px 20px; font-size: 14px; }
+.button.large { padding: 14px 20px; font-size: 15px; }
+.button + .button.btn-block  { margin-left: 0; }
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus { background: #42A042; border-color: #42A042; box-shadow: 0 0 0 0.2rem rgba(132,186,63,0.5); }
+.btn-primary.focus, .btn-primary:focus { box-shadow: 0 0 0 0.2rem rgba(132,186,63,0.5); background: #42A042; border-color: #42A042; }
+/*
+Template:  Webster - Responsive Multi-purpose HTML5 Template
+Author: potenzaglobalsolutions.com
+Design and Developed by: potenzaglobalsolutions.com
+
+NOTE: This file contains testimonial CSS.
+*/
+
+/*************************
+    testimonial
+*************************/
+.testimonial {position: relative; background:#f9f9f9; padding:85px 50px 45px 70px; margin:0 0px 4px 0; margin-top:45px; color:#656565; font-weight:400; line-height:24px; text-align:center; }
+.testimonial-avatar{position: absolute; left: 50%; margin-left:-40px; top:-45px; width:100px; height:100px;}
+.testimonial-avatar img{border:4px solid #42A042; max-width:100%; border-radius: 50%;}
+
+.testimonial-info{position: relative;}
+.testimonial-info:before{position:absolute; top:-15px; left:-35px; color:#42A042; content: "\201C"; font-family: Georgia, serif; font-size:100px;}
+
+.author-info{font-size:16px; color:#323232; text-transform:uppercase; margin-top:20px; position:relative;}
+.author-info strong{font-weight:500;}
+.author-info span{font-weight: normal; color: #42A042; text-transform:none;}
+
+/* Light */
+.testimonial.light { background:#fff; }
+
+/* Text White */
+.text-white .testimonial, .testimonial.text-white { color:#fff; }
+.text-white .testimonial .author-info { color:#fff; }
+
+/* Clean */
+.testimonial.clean { background:none; box-shadow:none; padding-bottom:0; padding:0 50px 25px 70px; margin-top:0; }
+.testimonial.clean .testimonial-avatar { position:relative; top:0; margin-bottom:20px; }
+.testimonial.clean .testimonial-avatar { margin-left: -65px; }
+
+.testimonial.text-white.clean .author-info { color:#42A042; }
+.theme-bg .testimonial.clean { padding-bottom:10px; margin-bottom:0;}
+.theme-bg .testimonial.clean .author-info { color:#323232; }
+.theme-bg .testimonial.clean .testimonial-avatar img { border-color:#ffffff; }
+.testimonial.text-white.clean .testimonial-info:before,
+.testimonial.text-white.clean .author-info span { color:#ffffff; }
+.testimonial.text-white.clean .author-info:before{ background:#ffffff;}
+
+/* Left Position */
+.testimonial.left_pos { margin-left: 40px; padding:60px 40px 40px 100px; text-align:left; }
+.testimonial.left_pos .testimonial-avatar { left:0; margin-top:-50px; top:50%; }
+.testimonial.left_pos .author-info:before { margin-left:0; left:0; }
+
+/* Bottom Position */
+.testimonial.bottom_pos { padding:60px 40px 40px 60px; text-align: left; margin-top:0; margin-bottom:70px; }
+.testimonial.bottom_pos .testimonial-avatar { bottom: -50px; top: inherit; left: 0px; margin-left: 50px; }
+.testimonial.bottom_pos .author-info { margin-left:125px; }
+.testimonial.bottom_pos .author-info:before { margin-left:0; left:0; }
+
+/* green BG */
+.testimonial.theme-bg { background:#42A042; color:#ffffff; }
+.testimonial.theme-bg .testimonial-info:before,
+.testimonial.theme-bg .author-info span { color:#ffffff; }
+.testimonial.theme-bg .testimonial-avatar img { border-color:#ffffff; color:#ffffff; }
+.testimonial.theme-bg .author-info:before { background:#ffffff; }
+/*
+Template:  Webster - Responsive Multi-purpose HTML5 Template
+Author: potenzaglobalsolutions.com
+Design and Developed by: potenzaglobalsolutions.com
+
+NOTE: This file contains Team CSS.
+*/
+
+/*************************
+        team
+*************************/
+.team { text-align: center; overflow: hidden; }
+.team .team-description { padding: 20px 20px 10px; }
+.team .team-info h5 { text-transform: uppercase; line-height: 24px; }
+.team .team-info span { font-size: 14px; text-transform: uppercase;}
+.team .social-icons { text-align: center; display: inline-block; margin-top: 10px; }
+.team .team-contact span { display: block; font-size: 14px; display: block; margin-bottom: 10px; }
+.team .team-contact span.call { font-size: 20px; line-height: 28px; font-weight: 600; margin: 10px 0; color: #42A042; }
+.team .team-contact span i { padding-right: 5px; }
+
+/*team-hover*/
+.team.team-hover .social-icons { position: absolute; top: 0; left: 10px; opacity: 0; transition: 0.5s ease-in-out; -webkit-transition: 0.5s ease-in-out; -moz-transition: 0.5s ease-in-out; -o-transition: 0.5s ease-in-out; -ms-transition: 0.5s ease-in-out; }
+.team.team-hover .social-icons ul { display: block; }
+.team.team-hover .social-icons li { display: block; float: none; clear: both; }
+.team.team-hover .social-icons li a { margin: 3px 0; border-radius: 50%; }
+.team.team-hover:hover .social-icons { opacity: 1; left: 40px; }
+
+/*team-hover*/
+.team.team-hover-2 .social-icons { position: absolute; top: 0%; right: 0; left:0px; opacity: 0; transition: 0.5s ease-in-out; -webkit-transition: 0.5s ease-in-out; -moz-transition: 0.5s ease-in-out; -o-transition: 0.5s ease-in-out; -ms-transition: 0.5s ease-in-out; }
+.team.team-hover-2 .social-icons ul { display: block; text-align: center; margin: 0 auto; }
+.team.team-hover-2 .social-icons li { display: inline-block; float: none; clear: both; }
+.team.team-hover-2 .social-icons li a { margin: 3px 0; background: #fff; color: #323232;}
+.team.team-hover-2:hover .social-icons { opacity: 1; top: 10%; }
+.team.team-hover-2 .team-photo{ position: relative; }
+.team.team-hover-2 .team-photo::before { content: ""; position: absolute; height: 100%; top: 0; left: 0; width: 100%; right: 0; bottom: 0; -webkit-transition: all 0.7s cubic-bezier(.68,.11,.13,.98); -moz-transition: all 0.7s cubic-bezier(.68,.11,.13,.98); transition: all 0.6s cubic-bezier(.68,.11,.13,.98)
+ }
+.team.team-hover-2:hover .team-photo::before { background:rgba(132,186,63, 0.9); }
+
+/*team border*/
+.team-border .team-description { border:1px solid #eeeeee; }
+
+/*team bg*/
+.team-bg .team-description { background: #f6f7f8; }
+
+/*team bg*/
+.team-dark .team-description { background: #323232; }
+.team-dark .team-info h5, .team-dark .team-contact span, .team-dark .team-info span, .team-dark .social-icons li a { color: #fff; }
+
+/*team shadow*/
+.team-shadow { box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); }
+
+/*team round*/
+.team-round .team-photo img { border-radius: 50%; }
+
+/*team round*/
+.team-round-shadow .team-photo img { border-radius: 50%; width: 90%; border: 3px solid #fff; box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.10); margin-top: 15px; }
+
+/*team round small*/
+.team-round-small .team-photo img { border-radius: 50%; width: 50%; }
+
+/*team round small shadow*/
+.team-round-small-shadow .team-photo img { border-radius: 50%; border: 3px solid #fff; width: 50%; box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.10); margin-top: 15px;}
+
+/*team full border*/
+.team-round.full-border { padding: 10px; border:1px solid #eeeeee; }
+.team-round.full-border .team-contact span.call { font-size: 16px; line-height: 22px; font-weight: normal; color: #363636; }
+.team-round.full-border .team-contact span.email { font-size: 17px; color: #42A042; }
+.team-round.full-border .team-description { padding-bottom: 0; }
+
+/*team list*/
+.team.team-list { clear: both; }
+.team.team-list h5 { font-size: 26px; }
+.team.team-list .team-info span { font-size: 18px; }
+.team.team-list .team-photo { float: left; width: 40%; }
+.team.team-list .team-description { position: relative; overflow: hidden; text-align: left; }
+.team.team-list .team-description { padding-top: 0; }
+.team.team-list.team-hover .social-icons { opacity: 1; left: inherit; top: inherit; margin-top:15px; }
+.team.team-list.team-hover .social-icons li { float: left;  }
+.team.team-list.team-hover .team-description { padding: 30px 20px 50px; }
+
+/*team-overlay*/
+.team.team-overlay { position: relative; }
+.team.team-overlay .team-description { width: 100%; padding: 10px 0px; position: absolute;  bottom: 10px; display: block;  margin-top: 0; float: left; z-index: 9; left: 0;  transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out;  -ms-transition: all 0.5s ease-in-out;  -o-transition: all 0.5s ease-in-out; }
+.team.team-overlay .team-description span { display: block; }
+.team.team-overlay:before { z-index: 1; position: absolute; width: 100%; left: 0; right: 0; bottom: 0; content: ""; ackground: -moz-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,0.9) 100%); background: -webkit-gradient(linear,left top,left bottom,color-stop(0,rgba(0,0,0,0)),color-stop(100%,rgba(0,0,0,0.9))); background: -webkit-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,0.9) 100%); background: -o-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,0.9) 100%); background: -ms-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,0.9) 100%);  background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,0.9) 100%); top: auto; height: 75%; transition: all .35s; }
+.team.team-overlay img { transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; }
+.team.team-overlay:hover img { -webkit-transform:scale(1.20);  -moz-transform:scale(1.20); -ms-transform:scale(1.20);  -o-transform:scale(1.20);  transform:scale(1.20); }
+.team.team-overlay.team-hover .social-icons, .team.team-overlay.team-hover .team-contact { display: none; }
+/*
+Template:  Webster - Responsive Multi-purpose HTML5 Template
+Author: potenzaglobalsolutions.com
+Design and Developed by: potenzaglobalsolutions.com
+
+NOTE: This file contains tab CSS.
+*/
+
+/*************************
+        tab
+*************************/
+ /*tab 1*/
+.tab .nav.nav-tabs { border: none; margin-bottom: 20px; }
+.tab .nav.nav-tabs li { margin-bottom: 0px; float: none; display: inline-block; }
+.tab .nav.nav-tabs li a { border: none; line-height: normal; border-radius: 0px; padding: 12px 30px; background: #f6f7f8; color: #353535; border:1px solid #eeeeee; }
+.tab .nav.nav-tabs li a i { padding-right: 5px; }
+.tab .nav.nav-tabs > li > a.active, .nav.nav-tabs > li > a.active:focus, .nav.nav-tabs > li > a.active:hover {  background: #42A042; color: #fff; border-color:transparent; }
+
+/*nav-border*/
+.nav-border .nav.nav-tabs li a { margin-right: 0; border:1px solid #eeeeee; background: transparent; }
+.nav-border .nav.nav-tabs > li > a.active, .nav-border .nav.nav-tabs > li > a.active:focus, .nav-border .nav.nav-tabs > li > a.active:hover { color: #ffffff;  background: #42A042;  border-color:#42A042; }
+
+/*tab-border*/
+.tab-border .nav.nav-tabs { margin-bottom: 0; }
+.tab-border .tab-content { padding: 20px; border:1px solid #eeeeee; margin-top: -1px; }
+.tab-border .nav.nav-tabs > li > a.active, .tab-border .nav.nav-tabs > li > a.active:focus, .tab-border .nav.nav-tabs > li > a.active:hover { color: #42A042;  background: #ffffff !important;  border-color:#eeeeee; border-bottom:1px solid #ffffff; }
+
+/*nav-center*/
+.nav-center .nav.nav-tabs { text-align: center; display: block; }
+.nav-right .nav.nav-tabs { text-align: right; display: block; }
+.nav-right .tab-content { text-align: right; }
+
+/*round*/
+.round .nav.nav-tabs li a { border: none; line-height: normal; margin-right: 10px; border-radius: 90px; padding: 12px 30px; background: #f6f7f8; color: #353535; }
+
+/*shadow*/
+.shadow .nav.nav-tabs > li > a.active, .shadow .nav.nav-tabs > li > a.active:focus, .shadow .nav.nav-tabs > li > a.active:hover { color: #42A042;  background: #ffffff !important;  border-color:#eeeeee; border-bottom: 0; box-shadow:  0px 3px 10px rgba(0, 0, 0, 0.1); }
+
+/*tab-vertical*/
+.tab-vertical .nav-tabs { float: left; width: 25%; }
+.tab-vertical .nav.nav-tabs li {  display: block; width: 100%; }
+.tab-vertical .nav.nav-tabs li a { border-right: 0; border-top: 0; padding: 14px 30px; }
+.tab-vertical .nav.nav-tabs li:first-child a { border-top: 1px solid #eeeeee; }
+.tab-vertical .tab-content { background-color: #fff; border: 1px solid #e9e9e9; padding: 40px 30px; margin-left: 25%; line-height: 30px; margin-top: 0; }
+.tab-vertical .tab-content p { line-height: 30px; }
+.tab-vertical .nav.nav-tabs > li > a.active, .tab-vertical .nav.nav-tabs > li > a.active:focus, .tab-vertical .nav.nav-tabs > li > a.active:hover { border-bottom: 1px solid #eeeeee; }
+
+/*vertical-right*/
+.vertical-right .nav-tabs { float: right; }
+.vertical-right .nav.nav-tabs li a { border-right: 1px solid #eeeeee; border-left: 0; }
+.vertical-right .tab-content {  margin-right: 24.8%; margin-left: inherit; text-align: right; }
+
+/* dropdown */
+.tab-dropdown .tab-content { margin-top: 30px; }
+.nav-pills>li>a.active, .nav-pills>li>a.active:focus, .nav-pills>li>a.active:hover { background: #42A042; color: #ffffff; }
+
+/* nav border top */
+.tab.nav-bt .nav li a { margin-right:0px !important; border-top: 2px solid transparent; border-left: 0; border-right: 0; border-bottom: 0;}
+.tab.nav-bt .nav.nav-tabs > li> a.active { background: #f6f7f8; border-color: transparent; color: #353535; border-top: 2px solid #42A042; }
+
+/* nav border left */
+.tab.nav-bl .nav li a{ margin-right:0px !important;}
+.tab.nav-bl .nav.nav-tabs > li > a { border-left: 4px solid transparent; border-right: none; border-bottom: none; border-top: none; }
+.tab.nav-bl .nav.nav-tabs > li > a.active{ background: #f6f7f8; border-color: transparent; color: #353535; border-left: 4px solid #42A042; border-bottom: none !important; }
+
+/* nav border right */
+.tab.nav-br .nav li a{ margin-right:0px !important;}
+.tab.nav-br .nav.nav-tabs > li > a { border-right: 4px solid transparent; border-left: none; border-bottom: none; border-top: none; }
+.tab.nav-br .nav.nav-tabs > li > a.active { background: #f6f7f8; border-color: transparent; color: #353535; border-right: 4px solid #42A042;  border-bottom: none !important; }
+/*
+Template:  Webster - Responsive Multi-purpose HTML5 Template
+Author: potenzaglobalsolutions.com
+Design and Developed by: potenzaglobalsolutions.com
+
+NOTE: This file contains social icon CSS.
+*/
+
+/*************************
+	   social-icon
+*************************/
+.social-icons ul{padding:0;}
+.text-center.social-icons ul{display:inline-block;}
+.social-icons li{ display: inline-block; list-style:none; padding:0; margin:0 8px 8px 0;}
+.social-icons li:last-child { margin-right: 0; }
+.social-icons li a { display: block; height: 32px; width: 32px; line-height: 32px; font-size: 16px; text-align: center; margin:0; border-radius: 4px; border: 0; background: transparent; color: #333; overflow: hidden; -webkit-transition: all .3s ease; -o-transition: all .3s ease; transition: all .3s ease; }
+
+.text-white .social-icons li a{color:#ffffff;}
+
+/*Colored*/
+.social-icons.color a,
+.social-icons.color-hover a:hover{color:#fff; border:0;}
+
+.social-icons.color .social-rss a,
+.social-icons.color-hover .social-rss a:hover {background-color: #faa33d;}
+
+.social-icons.color .social-facebook a,
+.social-icons.color-hover .social-facebook a:hover{background-color:#5d82d1;}
+
+.social-icons.color .social-twitter a,
+.social-icons.color-hover .social-twitter a:hover{background-color:#40bff5;}
+
+.social-icons.color .social-vimeo a,
+.social-icons.color-hover .social-vimeo a:hover{background-color:#35c6ea;}
+
+.social-icons.color .social-myspace a,
+.social-icons.color-hover .social-myspace a:hover{background-color:#008dde;}
+
+.social-icons.color .social-youtube a,
+.social-icons.color-hover .social-youtube a:hover{background-color:#ef4e41;}
+
+.social-icons.color .social-instagram a,
+.social-icons.color-hover .social-instagram a:hover{background-color:#e1326b;}
+
+.social-icons.color .social-gplus a,
+.social-icons.color-hover .social-gplus a:hover{background-color:#d68400;}
+
+.social-icons.color .social-stumbleupon a,
+.social-icons.color-hover .social-stumbleupon a:hover{background-color:#ff5c30;}
+
+.social-icons.color .social-lastfm a,
+.social-icons.color-hover .social-lastfm a:hover{background-color:#f34320;}
+
+.social-icons.color .social-pinterest a,
+.social-icons.color-hover .social-pinterest a:hover{background-color:#e13138;}
+
+.social-icons.color .social-google a,
+.social-icons.color-hover .social-google a:hover{background-color:#eb5e4c;}
+
+.social-icons.color .social-evernote a,
+.social-icons.color-hover .social-evernote a:hover{background-color:#9acf4f;}
+
+.social-icons.color .social-dribbble a,
+.social-icons.color-hover .social-dribbble a:hover{background-color:#f7659c;}
+
+.social-icons.color .social-skype a,
+.social-icons.color-hover .social-skype a:hover{background-color:#13c1f3;}
+
+.social-icons.color .social-forrst a,
+.social-icons.color-hover .social-forrst a:hover{background-color:#45ad76;}
+
+.social-icons.color .social-linkedin a,
+.social-icons.color-hover .social-linkedin a:hover{background-color:#238cc8;}
+
+.social-icons.color .social-youtube a,
+.social-icons.color-hover .social-youtube a:hover{background-color:#c4302b;}
+
+.social-icons.color .social-twitter a,
+.social-icons.color-hover .social-twitter a:hover{background-color:#00acee;}
+
+.social-icons.color .social-wordpress a,
+.social-icons.color-hover .social-wordpress a:hover{background-color:#2592c3;}
+
+.social-icons.color .social-grooveshark a,
+.social-icons.color-hover .social-grooveshark a:hover{background-color:#ffb21d;}
+
+.social-icons.color .social-delicious a,
+.social-icons.color-hover .social-delicious a:hover{background-color:#377bda;}
+
+.social-icons.color .social-behance a,
+.social-icons.color-hover .social-behance a:hover{background-color:#1879fd;}
+
+.social-icons.color .social-dropbox a,
+.social-icons.color-hover .social-dropbox a:hover{background-color:#17a3eb;}
+
+.social-icons.color .social-soundcloud a,
+.social-icons.color-hover .social-soundcloud a:hover{background-color:#ff7e30;}
+
+.social-icons.color .social-deviantart a,
+.social-icons.color-hover .social-deviantart a:hover{background-color:#6a8a7b;}
+
+.social-icons.color .social-yahoo a,
+.social-icons.color-hover .social-yahoo a:hover{background-color:#ab47ac;}
+
+.social-icons.color .social-flickr a,
+.social-icons.color-hover .social-flickr a:hover{background-color:#ff48a3;}
+
+.social-icons.color .social-digg a,
+.social-icons.color-hover .social-digg a:hover{background-color:#75788d;}
+
+.social-icons.color .social-blogger a,
+.social-icons.color-hover .social-blogger a:hover{background-color:#ff9233;}
+
+.social-icons.color .social-tumblr a,
+.social-icons.color-hover .social-tumblr a:hover{background-color:#426d9b;}
+
+.social-icons.color .social-quora a,
+.social-icons.color-hover .social-quora a:hover{background-color:#ea3d23;}
+
+.social-icons.color .social-github a,
+.social-icons.color-hover .social-github a:hover{background-color:#3f91cb;}
+
+.social-icons.color .social-amazon a,
+.social-icons.color-hover .social-amazon a:hover{background-color:#ff8e2e;}
+
+.social-icons.color .social-xing a,
+.social-icons.color-hover .social-xing a:hover{background-color:#1a8e8c;}
+
+.social-icons.color .social-wikipedia a,
+.social-icons.color-hover .social-wikipedia a:hover{background-color:#b3b5b8;}
+
+.social-icons.color .social-android a,
+.social-icons.color-hover .social-android a:hover{background-color:#A4C639;}
+
+.social-icons.color .social-apple a,
+.social-icons.color-hover .social-apple a:hover{background-color:#999999;}
+
+/* Border */
+.social-icons.social-border li a{border:1px solid #eee;   background:transparent;}
+
+/* Dark */
+.social-icons.social-icons-dark li a{background:#888; color:#fff;}
+
+/* Light */
+.social-icons.light li a{background:#fff; color:#333; border:1px solid #eee;}
+
+/* Rounded */
+.social-icons.rounded li a{-webkit-border-radius:50%; -moz-border-radius:50%; border-radius:50%;}
+
+/* Medium Size */
+.social-icons.medium li a{height:42px; width:42px; line-height:42px; font-size:18px;}
+
+/* Large Size */
+.social-icons.social-icons-large li a{height:48px; width:48px; line-height:48px; font-size:18px; margin:0 10px 10px 0;}
+.social-icons:not(.color):not(.color-hover) li a:hover{background-color: #eee;}
+.social-icons li:hover i{-webkit-animation: toTopFromBottom 0.3s forwards; -moz-animation: toTopFromBottom 0.3s forwards; animation: toTopFromBottom 0.3s forwards;}
+
+@-webkit-keyframes toTopFromBottom {
+    49% {-webkit-transform: translateY(-100%);}
+    50% {opacity: 0; -webkit-transform: translateY(100%);}
+    51% {opacity: 1;}
+}
+@-moz-keyframes toTopFromBottom {
+    49% {-moz-transform: translateY(-100%);}
+    50% {opacity: 0; -moz-transform: translateY(100%);}
+    51% {opacity: 1;}
+}
+@keyframes toTopFromBottom {
+    49% {transform: translateY(-100%);}
+    50% {opacity: 0; transform: translateY(100%);}
+    51% {opacity: 1;}
+}
+
+.social-icons.big li a { height:62px; width:62px; line-height:62px; font-size:18px; }
+
+
+/*icon */
+.social-icons.color-icon a { color: #42A042; }
+
+.social-icons.color-icon .social-rss a  { color: #faa33d;}
+
+.social-icons.color-icon .social-facebook a { color:#5d82d1;}
+
+.social-icons.color-icon .social-twitter a { color:#40bff5;}
+
+.social-icons.color-icon .social-vimeo a { color:#35c6ea;}
+
+.social-icons.color-icon .social-myspace a { color:#008dde;}
+
+.social-icons.color-icon .social-youtube a { color:#ef4e41;}
+
+.social-icons.color-icon .social-instagram a { color:#e1326b;}
+
+.social-icons.color-icon .social-gplus a { color:#d68400;}
+
+.social-icons.color-icon .social-stumbleupon a { color:#ff5c30;}
+
+.social-icons.color-icon .social-lastfm a { color:#f34320;}
+
+.social-icons.color-icon .social-pinterest a { color:#e13138;}
+
+.social-icons.color-icon .social-google a { color:#eb5e4c;}
+
+.social-icons.color-icon .social-evernote a { color:#9acf4f;}
+
+.social-icons.color-icon .social-dribbble a { color:#f7659c;}
+
+.social-icons.color-icon .social-skype a { color:#13c1f3;}
+
+.social-icons.color-icon .social-forrst a { color:#45ad76;}
+
+.social-icons.color-icon .social-linkedin a { color:#238cc8;}
+
+.social-icons.color-icon .social-wordpress a { color:#2592c3;}
+
+.social-icons.color-icon .social-grooveshark a { color:#ffb21d;}
+
+.social-icons.color-icon .social-delicious a { color:#377bda;}
+
+.social-icons.color-icon .social-behance a { color:#1879fd;}
+
+.social-icons.color-icon .social-dropbox a { color:#17a3eb;}
+
+.social-icons.color-icon .social-soundcloud a { color:#ff7e30;}
+
+.social-icons.color-icon .social-deviantart a { color:#6a8a7b;}
+
+.social-icons.color-icon .social-yahoo a { color:#ab47ac;}
+
+.social-icons.color-icon .social-flickr a { color:#ff48a3;}
+
+.social-icons.color-icon .social-digg a { color:#75788d;}
+
+.social-icons.color-icon .social-blogger a { color:#ff9233;}
+
+.social-icons.color-icon .social-tumblr a { color:#426d9b;}
+
+.social-icons.color-icon .social-quora a { color:#ea3d23;}
+
+.social-icons.color-icon .social-github a { color:#3f91cb;}
+
+.social-icons.color-icon .social-amazon a { color:#ff8e2e;}
+
+.social-icons.color-icon .social-xing a { color:#1a8e8c;}
+
+.social-icons.color-icon .social-wikipedia a { color:#b3b5b8;}
+
+.social-icons.color-icon .social-android a { color:#A4C639;}
+
+.social-icons.color-icon .social-apple a { color:#999999;}
+
+.social-icons.text-social li a { width: inherit; height: inherit; font-size: 18px; font-weight: bold; }
+.social-icons.text-social li a:hover { background: transparent; }
+.social-icons:not(.color):not(.color-hover) li a:hover { background: transparent; }
+
+
+/*
+Template:  Webster - Responsive Multi-purpose HTML5 Template
+Author: potenzaglobalsolutions.com
+Design and Developed by: potenzaglobalsolutions.com
+
+NOTE: This file contains Side panel CSS.
+*/
+
+html,
+body,
+.st-container,
+.st-pusher,
+.st-content { }
+.st-content { overflow-y: scroll; }
+.st-content,
+.st-content-inner { position: relative; }
+.st-container { position: relative; overflow-x: hidden; }
+.st-pusher { position: relative; left: 0; z-index: 99; height: 100%; -webkit-transition: -webkit-transform 0.5s;  -moz-transition: -moz-transform 0.5s;  -ms-transition: -ms-transform 0.5s;  -o-transition: -o-transform 0.5s;  transition: transform 0.5s; }
+.st-menu .newsletter-box.newsletter-border { border-left: 0; border-right: 0; }
+.st-pusher::after { position: absolute; top: 0; right: 0; width: 0; height: 0; background: rgba(0, 0, 0, 0.6); content: ''; opacity: 0; -webkit-transition: opacity 0.5s, width 0.1s 0.5s, height 0.1s 0.5s; -o-transition: opacity 0.5s, width 0.1s 0.5s, height 0.1s 0.5s; -ms-transition: opacity 0.5s, width 0.1s 0.5s, height 0.1s 0.5s; -moz-transition: opacity 0.5s, width 0.1s 0.5s, height 0.1s 0.5s; transition: opacity 0.5s, width 0.1s 0.5s, height 0.1s 0.5s; }
+.st-menu-open .st-pusher::after { width: 100%; height: 100%; opacity: 1; z-index: 9999; -webkit-transition: opacity 0.5s; -ms-transition: opacity 0.5s; -o-transition: opacity 0.5s; -moz-transition: opacity 0.5s; transition: opacity 0.5s; cursor: url("../images/close.png") 25 25, pointer; }
+.st-menu { position: fixed !important; top: 0; left: 0; z-index: 9999; visibility: hidden; width: 380px; height: 100%; background: #ffffff; -webkit-transition: all 0.5s; -o-transition: all 0.5s; -webkit-transition: all 0.5s; -ms-transition: all 0.5s; -moz-transition: all 0.5s; transition: all 0.5s; }
+.st-menu::after { position: absolute; top: 0; right: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.2); content: ''; opacity: 1; -webkit-transition: opacity 0.5s; -moz-transition: opacity 0.5s; -o-transition: opacity 0.5s; -ms-transition: opacity 0.5s; transition: opacity 0.5s; }
+.st-menu-open .st-menu::after { width: 0; height: 0; opacity: 0; -webkit-transition: opacity 0.5s, width 0.1s 0.5s, height 0.1s 0.5s; -moz-transition: opacity 0.5s, width 0.1s 0.5s, height 0.1s 0.5s; -o-transition: opacity 0.5s, width 0.1s 0.5s, height 0.1s 0.5s; -ms-transition: opacity 0.5s, width 0.1s 0.5s, height 0.1s 0.5s; transition: opacity 0.5s, width 0.1s 0.5s, height 0.1s 0.5s; }
+
+
+/* content style */
+.slide-logo { padding: 30px; }
+.slide-logo img { height: 50px; }
+.st-menu ul.menu { margin: 0; padding: 30px; list-style: none; }
+.st-menu ul.menu li { line-height: 60px; }
+.st-menu ul.menu li a { font-size: 30px; color: #323232; font-family: 'Montserrat', sans-serif; position: relative; }
+.st-menu ul.menu li a:before { opacity: 0; content: ''; position: absolute; left: 0; width: 0; height: 14px; background: rgba(2, 170, 188, 0.4); bottom: 0; transition: 0.3s ease-in-out; }
+.st-menu ul.menu li a:hover:before,
+.st-menu ul.menu li a.active:before,
+.st-menu ul.menu li a.active,
+.st-menu ul.menu li a:hover { opacity: 1; width: 100%; color: #42A042; }
+.slide-footer { padding: 30px; }
+.slide-footer .social ul li { display: inline-block; }
+.slide-footer .social ul li a { font-size: 20px; padding-right: 20px; }
+.slide-footer .social ul li.facebook a { color: #5d82d1; }
+.slide-footer .social ul li.instagram a { color: #521313; }
+.slide-footer .social ul li.twitter a { color: #40bff5; }
+.slide-footer .social ul li.pinterest a { color: #e13138; }
+.slide-footer .social ul li.behance a { color: #1879fd; }
+.slide-footer .social ul li.google a { color: #ff0000; }
+
+/* Individual effects */
+
+/* Effect 1: Slide in on top */
+.st-effect-1.st-menu { visibility: visible; -webkit-transform: translate3d(-100%, 0, 0); -ms-transform: translate3d(-100%, 0, 0); -o-transform: translate3d(-100%, 0, 0); -moz-transform: translate3d(-100%, 0, 0); transform: translate3d(-100%, 0, 0); }
+.st-effect-1.st-menu-open .st-effect-1.st-menu { visibility: visible; -webkit-transform: translate3d(0, 0, 0); -moz-transform: translate3d(0, 0, 0); -ms-transform: translate3d(0, 0, 0); -o-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); }
+.st-effect-1.st-menu::after { display: none; }
+
+/* Effect 2: Reveal */
+.st-effect-2.st-menu-open .st-pusher { -webkit-transform: translate3d(380px, 0, 0); -ms-transform: translate3d(380px, 0, 0); -o-transform: translate3d(380px, 0, 0); -moz-transform: translate3d(380px, 0, 0); transform: translate3d(380px, 0, 0); }
+.st-effect-2.st-menu { z-index: 1; }
+.st-effect-2.st-menu-open .st-effect-2.st-menu { visibility: visible; -webkit-transition: -webkit-transform 0.5s; -ms-transition: -ms-transform 0.5s; -moz-transition: -moz-transform 0.5s; -o-transition: -o-transform 0.5s; transition: transform 0.5s; }
+.st-effect-2.st-menu::after { display: none; }
+
+/* Effect 3: Push*/
+.st-effect-3.st-menu-open .st-pusher { -webkit-transform: translate3d(380px, 0, 0); -ms-transform: translate3d(380px, 0, 0); -moz-transform: translate3d(380px, 0, 0); -o-transform: translate3d(380px, 0, 0); transform: translate3d(380px, 0, 0); }
+.st-effect-3.st-menu { -webkit-transform: translate3d(-100%, 0, 0); -o-transform: translate3d(-100%, 0, 0); -ms-transform: translate3d(-100%, 0, 0); -moz-transform: translate3d(-100%, 0, 0); transform: translate3d(-100%, 0, 0); }
+.st-effect-3.st-menu-open .st-effect-3.st-menu { visibility: visible; -webkit-transition: -webkit-transform 0.5s; -ms-transition: -ms-transform 0.5s; -o-transition: -o-transform 0.5s; -moz-transition: -moz-transform 0.5s; transition: transform 0.5s; }
+.st-effect-3.st-menu::after { display: none; }
+
+/* Effect 4: Slide along */
+.st-effect-4.st-menu-open .st-pusher { -webkit-transform: translate3d(380px, 0, 0); -ms-transform: translate3d(380px, 0, 0); -moz-transform: translate3d(380px, 0, 0); -o-transform: translate3d(380px, 0, 0); transform: translate3d(380px, 0, 0); }
+.st-effect-4.st-menu { z-index: 1; -webkit-transform: translate3d(-50%, 0, 0); transform: translate3d(-50%, 0, 0); }
+.st-effect-4.st-menu-open .st-effect-4.st-menu { visibility: visible; -webkit-transition: -webkit-transform 0.5s; -ms-transition: -ms-transform 0.5s; -o-transition: -o-transform 0.5s; -moz-transition: -moz-transform 0.5s; transition: transform 0.5s; -webkit-transform: translate3d(0, 0, 0); -o-transform: translate3d(0, 0, 0);  -ms-transform: translate3d(0, 0, 0); -moz-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); }
+.st-effect-4.st-menu::after { display: none; }
+
+/* Effect 5: Reverse slide out */
+.st-effect-5.st-menu-open .st-pusher { -webkit-transform: translate3d(380px, 0, 0); -ms-transform: translate3d(380px, 0, 0); -o-transform: translate3d(380px, 0, 0); -moz-transform: translate3d(380px, 0, 0); transform: translate3d(380px, 0, 0); }
+.st-effect-5.st-menu { z-index: 1; -webkit-transform: translate3d(50%, 0, 0); -ms-transform: translate3d(50%, 0, 0); -o-transform: translate3d(50%, 0, 0); -moz-transform: translate3d(50%, 0, 0); transform: translate3d(50%, 0, 0); }
+.st-effect-5.st-menu-open .st-effect-5.st-menu { visibility: visible; -webkit-transition: -webkit-transform 0.5s; -o-transition: -o-transform 0.5s; -ms-transition: -ms-transform 0.5s; -moz-transition: -moz-transform 0.5s; transition: transform 0.5s; -webkit-transform: translate3d(0, 0, 0); -ms-transform: translate3d(0, 0, 0); -moz-transform: translate3d(0, 0, 0); -o-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); }
+
+/* Effect 6: Rotate pusher */
+.st-effect-6.st-container { -webkit-perspective: 1500px; -moz-perspective: 1500px; -ms-perspective: 1500px; -o-perspective: 1500px; perspective: 1500px; }
+.st-effect-6 .st-pusher { -webkit-transform-origin: 0% 50%; -o-transform-origin: 0% 50%; -ms-transform-origin: 0% 50%; -moz-transform-origin: 0% 50%; transform-origin: 0% 50%; -webkit-transform-style: preserve-3d; -o-transform-style: preserve-3d; -ms-transform-style: preserve-3d; -moz-transform-style: preserve-3d; transform-style: preserve-3d; }
+.st-effect-6.st-menu-open .st-pusher { -webkit-transform: translate3d(380px, 0, 0) rotateY(-15deg); -o-transform: translate3d(380px, 0, 0) rotateY(-15deg); -ms-transform: translate3d(380px, 0, 0) rotateY(-15deg); -moz-transform: translate3d(380px, 0, 0) rotateY(-15deg); transform: translate3d(380px, 0, 0) rotateY(-15deg); }
+.st-effect-6.st-menu { -webkit-transform: translate3d(-100%, 0, 0); -moz-transform: translate3d(-100%, 0, 0); -ms-transform: translate3d(-100%, 0, 0); -o-transform: translate3d(-100%, 0, 0); transform: translate3d(-100%, 0, 0); -webkit-transform-origin: 100% 50%; -moz-transform-origin: 100% 50%; -ms-transform-origin: 100% 50%; -o-transform-origin: 100% 50%; transform-origin: 100% 50%; -webkit-transform-style: preserve-3d; -moz-transform-style: preserve-3d; -ms-transform-style: preserve-3d; -o-transform-style: preserve-3d; transform-style: preserve-3d; }
+.st-effect-6.st-menu-open .st-effect-6.st-menu { visibility: visible; -webkit-transition: -webkit-transform 0.5s; -moz-transition: -moz-transform 0.5s; -ms-transition: -ms-transform 0.5s; -o-transition: -o-transform 0.5s; transition: transform 0.5s; -webkit-transform: translate3d(-100%, 0, 0) rotateY(15deg); -moz-transform: translate3d(-100%, 0, 0) rotateY(15deg); -ms-transform: translate3d(-100%, 0, 0) rotateY(15deg); -o-transform: translate3d(-100%, 0, 0) rotateY(15deg); transform: translate3d(-100%, 0, 0) rotateY(15deg); }
+.st-effect-6.st-menu::after { display: none; }
+
+/* Effect 7: 3D rotate in */
+.st-effect-7.st-container { -webkit-perspective: 1500px; -moz-perspective: 1500px; -ms-perspective: 1500px; -o-perspective: 1500px; perspective: 1500px; -webkit-perspective-origin: 0% 50%; perspective-origin: 0% 50%; }
+.st-effect-7 .st-pusher { -webkit-transform-style: preserve-3d; transform-style: preserve-3d; }
+.st-effect-7.st-menu-open .st-pusher { -webkit-transform: translate3d(380px, 0, 0); -moz-transform: translate3d(380px, 0, 0); -ms-transform: translate3d(380px, 0, 0); -o-transform: translate3d(380px, 0, 0); transform: translate3d(380px, 0, 0); }
+.st-effect-7.st-menu { -webkit-transform: translate3d(-100%, 0, 0) rotateY(-90deg); -moz-transform: translate3d(-100%, 0, 0) rotateY(-90deg); -ms-transform: translate3d(-100%, 0, 0) rotateY(-90deg); -o-transform: translate3d(-100%, 0, 0) rotateY(-90deg); transform: translate3d(-100%, 0, 0) rotateY(-90deg); -webkit-transform-origin: 100% 50%; -moz-transform-origin: 100% 50%; -ms-transform-origin: 100% 50%; -o-transform-origin: 100% 50%; transform-origin: 100% 50%; -webkit-transform-style: preserve-3d; -moz-transform-style: preserve-3d; -ms-transform-style: preserve-3d; -o-transform-style: preserve-3d; transform-style: preserve-3d; }
+.st-effect-7.st-menu-open .st-effect-7.st-menu { visibility: visible; -webkit-transition: -webkit-transform 0.5s; -ms-transition: -ms-transform 0.5s; -moz-transition: -moz-transform 0.5s; -o-transition: -o-transform 0.5s; transition: transform 0.5s; -webkit-transform: translate3d(-100%, 0, 0) rotateY(0deg); -o-transform: translate3d(-100%, 0, 0) rotateY(0deg); -ms-transform: translate3d(-100%, 0, 0) rotateY(0deg); -moz-transform: translate3d(-100%, 0, 0) rotateY(0deg); transform: translate3d(-100%, 0, 0) rotateY(0deg); }
+
+/* Effect 8: 3D rotate out */
+.st-effect-8.st-container { -webkit-perspective: 1500px; -moz-perspective: 1500px; -ms-perspective: 1500px; -o-perspective: 1500px; perspective: 1500px; -webkit-perspective-origin: 0% 50%; perspective-origin: 0% 50%; }
+.st-effect-8 .st-pusher { -webkit-transform-style: preserve-3d; -o-transform-style: preserve-3d; -ms-transform-style: preserve-3d; -o-transform-style: preserve-3d; transform-style: preserve-3d; }
+.st-effect-8.st-menu-open .st-pusher { -webkit-transform: translate3d(380px, 0, 0); -moz-transform: translate3d(380px, 0, 0); -ms-transform: translate3d(380px, 0, 0);  -o-transform: translate3d(380px, 0, 0); transform: translate3d(380px, 0, 0); }
+.st-effect-8.st-menu { -webkit-transform: translate3d(-100%, 0, 0) rotateY(90deg); -o-transform: translate3d(-100%, 0, 0) rotateY(90deg); -ms-transform: translate3d(-100%, 0, 0) rotateY(90deg); -moz-transform: translate3d(-100%, 0, 0) rotateY(90deg); transform: translate3d(-100%, 0, 0) rotateY(90deg); -webkit-transform-origin: 100% 50%; -ms-transform-origin: 100% 50%; -moz-transform-origin: 100% 50%; -o-transform-origin: 100% 50%; transform-origin: 100% 50%; -webkit-transform-style: preserve-3d; transform-style: preserve-3d; -moz-transform-style: preserve-3d; transform-style: preserve-3d; -o-transform-style: preserve-3d; transform-style: preserve-3d; -ms-transform-style: preserve-3d; transform-style: preserve-3d; }
+.st-effect-8.st-menu-open .st-effect-8.st-menu { visibility: visible; -webkit-transition: -webkit-transform 0.5s; -moz-transition: -moz-transform 0.5s; -ms-transition: -ms-transform 0.5s; -o-transition: -o-transform 0.5s; transition: transform 0.5s; -webkit-transform: translate3d(-100%, 0, 0) rotateY(0deg); -moz-transform: translate3d(-100%, 0, 0) rotateY(0deg); -ms-transform: translate3d(-100%, 0, 0) rotateY(0deg); -o-transform: translate3d(-100%, 0, 0) rotateY(0deg); transform: translate3d(-100%, 0, 0) rotateY(0deg); }
+.st-effect-8.st-menu::after { display: none; }
+
+/* Effect 9: Scale down pusher */
+.st-effect-9.st-container { -webkit-perspective: 1500px; -moz-perspective: 1500px; -ms-perspective: 1500px; -o-perspective: 1500px; perspective: 1500px; }
+.st-effect-9 .st-pusher { -webkit-transform-style: preserve-3d; -ms-transform-style: preserve-3d; -moz-transform-style: preserve-3d; -o-transform-style: preserve-3d; transform-style: preserve-3d; }
+.st-effect-9.st-menu-open .st-pusher { -webkit-transform: translate3d(0, 0, -380px); -ms-transform: translate3d(0, 0, -380px); -moz-transform: translate3d(0, 0, -380px); -o-transform: translate3d(0, 0, -380px); transform: translate3d(0, 0, -380px); }
+.st-effect-9.st-menu { opacity: 1; -webkit-transform: translate3d(-100%, 0, 0); -ms-transform: translate3d(-100%, 0, 0); -moz-transform: translate3d(-100%, 0, 0); -o-transform: translate3d(-100%, 0, 0); transform: translate3d(-100%, 0, 0); }
+.st-effect-9.st-menu-open .st-effect-9.st-menu { visibility: visible; -webkit-transition: -webkit-transform 0.5s; -moz-transition: -moz-transform 0.5s; -ms-transition: -ms-transform 0.5s; -o-transition: -o-transform 0.5s; transition: transform 0.5s; -webkit-transform: translate3d(0, 0, 0);  -o-transform: translate3d(0, 0, 0);  -moz-transform: translate3d(0, 0, 0);  -ms-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); }
+.st-effect-9.st-menu::after { display: none; }
+
+/* Effect 10: Scale up */
+.st-effect-10.st-container { -webkit-perspective: 1500px; -moz-perspective: 1500px; -ms-perspective: 1500px; -o-perspective: 1500px; perspective: 1500px; -webkit-perspective-origin: 0% 50%; perspective-origin: 0% 50%; }
+.st-effect-10.st-menu-open .st-pusher { -webkit-transform: translate3d(380px, 0, 0); -moz-transform: translate3d(380px, 0, 0); -ms-transform: translate3d(380px, 0, 0); -o-transform: translate3d(380px, 0, 0); transform: translate3d(380px, 0, 0); }
+.st-effect-10.st-menu { z-index: 1; opacity: 1; -webkit-transform: translate3d(0, 0, -380px); -moz-transform: translate3d(0, 0, -380px); -ms-transform: translate3d(0, 0, -380px); -o-transform: translate3d(0, 0, -380px); transform: translate3d(0, 0, -380px); }
+.st-effect-10.st-menu-open .st-effect-10.st-menu { visibility: visible; -webkit-transition: -webkit-transform 0.5s; -moz-transition: -moz-transform 0.5s; -ms-transition: -ms-transform 0.5s; -o-transition: -o-transform 0.5s; transition: transform 0.5s; -webkit-transform: translate3d(0, 0, 0); -moz-transform: translate3d(0, 0, 0); -ms-transform: translate3d(0, 0, 0); -o-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); }
+
+/* Effect 11: Scale and rotate pusher */
+.st-effect-11.st-container { -webkit-perspective: 1500px; -moz-perspective: 1500px; -ms-perspective: 1500px; -o-perspective: 1500px; perspective: 1500px; }
+.st-effect-11 .st-pusher { -webkit-transform-style: preserve-3d; -moz-transform-style: preserve-3d; -ms-transform-style: preserve-3d; -o-transform-style: preserve-3d; transform-style: preserve-3d; }
+.st-effect-11.st-menu-open .st-pusher { -webkit-transform: translate3d(100px, 0, -600px) rotateY(-20deg); -ms-transform: translate3d(100px, 0, -600px) rotateY(-20deg);  -moz-transform: translate3d(100px, 0, -600px) rotateY(-20deg); -o-transform: translate3d(100px, 0, -600px) rotateY(-20deg); transform: translate3d(100px, 0, -600px) rotateY(-20deg); }
+.st-effect-11.st-menu { opacity: 1; -webkit-transform: translate3d(-100%, 0, 0); -ms-transform: translate3d(-100%, 0, 0); -moz-transform: translate3d(-100%, 0, 0); -o-transform: translate3d(-100%, 0, 0); transform: translate3d(-100%, 0, 0); }
+.st-effect-11.st-menu-open .st-effect-11.st-menu { visibility: visible; -webkit-transition: -webkit-transform 0.5s; -moz-transition: -moz-transform 0.5s; -o-transition: -o-transform 0.5s; -ms-transition: -ms-transform 0.5s; transition: transform 0.5s; -webkit-transform: translate3d(0, 0, 0); -moz-transform: translate3d(0, 0, 0); -ms-transform: translate3d(0, 0, 0); -o-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); }
+.st-effect-11.st-menu::after { display: none; }
+
+/* Effect 12: Open door */
+.st-effect-12.st-container { -webkit-perspective: 1500px; -moz-perspective: 1500px; -ms-perspective: 1500px; -o-perspective: 1500px; perspective: 1500px; }
+.st-effect-12 .st-pusher { -webkit-transform-origin: 100% 50%; -o-transform-origin: 100% 50%; -ms-transform-origin: 100% 50%; -moz-transform-origin: 100% 50%; transform-origin: 100% 50%; -webkit-transform-style: preserve-3d; -ms-transform-style: preserve-3d; -moz-transform-style: preserve-3d; -o-transform-style: preserve-3d; transform-style: preserve-3d; }
+.st-effect-12.st-menu-open .st-pusher { -webkit-transform: rotateY(-10deg); -moz-transform: rotateY(-10deg); -o-transform: rotateY(-10deg); -ms-transform: rotateY(-10deg); transform: rotateY(-10deg); }
+.st-effect-12.st-menu { opacity: 1; -webkit-transform: translate3d(-100%, 0, 0); -ms-transform: translate3d(-100%, 0, 0); -moz-transform: translate3d(-100%, 0, 0); -o-transform: translate3d(-100%, 0, 0); transform: translate3d(-100%, 0, 0); }
+.st-effect-12.st-menu-open .st-effect-12.st-menu { visibility: visible; -webkit-transition: -webkit-transform 0.5s; -moz-transition: -moz-transform 0.5s; -o-transition: -o-transform 0.5s; -ms-transition: -ms-transform 0.5s; transition: transform 0.5s; -webkit-transform: translate3d(0, 0, 0); -moz-transform: translate3d(0, 0, 0); -ms-transform: translate3d(0, 0, 0); -o-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); }
+.st-effect-12.st-menu::after { display: none; }
+
+/* Effect 13: Fall down */
+.st-effect-13.st-container { -webkit-perspective: 1500px; -moz-perspective: 1500px; -ms-perspective: 1500px; -o-perspective: 1500px; perspective: 1500px; -webkit-perspective-origin: 0% 50%; perspective-origin: 0% 50%; }
+.st-effect-13.st-menu-open .st-pusher { -webkit-transform: translate3d(380px, 0, 0); -moz-transform: translate3d(380px, 0, 0); -ms-transform: translate3d(380px, 0, 0); -o-transform: translate3d(380px, 0, 0); transform: translate3d(380px, 0, 0); }
+.st-effect-13.st-menu { z-index: 1; opacity: 1; -webkit-transform: translate3d(0, -100%, 0); -moz-transform: translate3d(0, -100%, 0); -ms-transform: translate3d(0, -100%, 0); -o-transform: translate3d(0, -100%, 0); transform: translate3d(0, -100%, 0); }
+.st-effect-13.st-menu-open .st-effect-13.st-menu { visibility: visible; -webkit-transition-timing-function: ease-in-out; -o-transition-timing-function: ease-in-out; -ms-transition-timing-function: ease-in-out; -o-transition-timing-function: ease-in-out; transition-timing-function: ease-in-out; -webkit-transition-property: -webkit-transform; -moz-transition-property: -moz-transform; -ms-transition-property: -ms-transform; -o-transition-property: -o-transform; transition-property: transform; -webkit-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); -webkit-transform: translate3d(0, 0, 0); -moz-transform: translate3d(0, 0, 0); -ms-transform: translate3d(0, 0, 0); -o-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); }
+
+/* Effect 14: Delayed 3D rotate */
+.st-effect-14.st-container { -webkit-perspective: 1500px; -moz-perspective: 1500px; -ms-perspective: 1500px; -o-perspective: 1500px; perspective: 1500px; -webkit-perspective-origin: 0% 50%; -moz-perspective-origin: 0% 50%; -ms-perspective-origin: 0% 50%; -o-perspective-origin: 0% 50%; perspective-origin: 0% 50%; }
+.st-effect-14 .st-pusher { -webkit-transform-style: preserve-3d; -moz-transform-style: preserve-3d; -ms-transform-style: preserve-3d; -o-transform-style: preserve-3d; transform-style: preserve-3d; }
+.st-effect-14.st-menu-open .st-pusher { -webkit-transform: translate3d(380px, 0, 0); -moz-transform: translate3d(380px, 0, 0); -ms-transform: translate3d(380px, 0, 0); -o-transform: translate3d(380px, 0, 0); transform: translate3d(380px, 0, 0); }
+.st-effect-14.st-menu { -webkit-transform: translate3d(-100%, 0, 0) rotateY(90deg); -moz-transform: translate3d(-100%, 0, 0) rotateY(90deg); -ms-transform: translate3d(-100%, 0, 0) rotateY(90deg); -o-transform: translate3d(-100%, 0, 0) rotateY(90deg); transform: translate3d(-100%, 0, 0) rotateY(90deg); -webkit-transform-origin: 0% 50%; -o-transform-origin: 0% 50%; -ms-transform-origin: 0% 50%; -o-transform-origin: 0% 50%; transform-origin: 0% 50%; -webkit-transform-style: preserve-3d; -moz-transform-style: preserve-3d; -ms-transform-style: preserve-3d; -o-transform-style: preserve-3d; transform-style: preserve-3d; }
+.st-effect-14.st-menu-open .st-effect-14.st-menu { visibility: visible; -webkit-transition-delay: 0.1s; -moz-transition-delay: 0.1s; -ms-transition-delay: 0.1s; -o-transition-delay: 0.1s; transition-delay: 0.1s; -webkit-transition-timing-function: ease-in-out; -moz-transition-timing-function: ease-in-out; -ms-transition-timing-function: ease-in-out; -o-transition-timing-function: ease-in-out; transition-timing-function: ease-in-out; -webkit-transition-property: -webkit-transform; -o-transition-property: -o-transform; -ms-transition-property: -ms-transform; -moz-transition-property: -moz-transform; transition-property: transform; -webkit-transform: translate3d(-100%, 0, 0) rotateY(0deg); -ms-transform: translate3d(-100%, 0, 0) rotateY(0deg); -moz-transform: translate3d(-100%, 0, 0) rotateY(0deg); -o-transform: translate3d(-100%, 0, 0) rotateY(0deg); transform: translate3d(-100%, 0, 0) rotateY(0deg); }
+
+/* Fallback example for browsers that don't support 3D transforms (and no JS fallback) */
+.no-csstransforms3d .st-pusher,
+.no-js .st-pusher { padding-left: 380px; }
+
+/*************************************
+             v1.2
+**************************************/
+/*right-side*/
+.st-menu.right-side { right: 0; left: inherit; }
+/*.st-menu.right-side .pos-bot { bottom: inherit; }*/
+
+/* Effect 1: Slide in on top */
+.st-effect-1.st-menu-open.right-side .st-effect-1.st-menu.right-side { visibility: visible; -webkit-transform: translate3d(0, 0, 0); -moz-transform: translate3d(0, 0, 0); -ms-transform: translate3d(0, 0, 0); -o-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); }
+.st-effect-1.right-side.st-menu::after { display: none; }
+
+/*big-side */
+.st-menu.big-side { width: 550px; }
+.st-menu.big-side ul.menu { padding-bottom: 0px; }
+.st-menu.big-side ul.menu li a { font-size: 40px; line-height: 40px; font-weight: 500; }
+
+.st-menu.big-side .right-side-bottom { position: relative; top: 60%; transform: translateY(-50%); -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); }
+
+.social-icons.width-half ul { display: inline-block; }
+.social-icons.width-half ul li { width: 49%; float: left; margin: 0; }
+.social-icons.width-half ul li a { text-align: left; }
+
+/*slide-footer-content*/
+.slide-footer-content { padding: 30px 30px 30px 0; margin-bottom: 30px; position: relative; }
+.slide-footer-content p {font-size: 16px; font-weight: bold; line-height: 30px; font-style: italic;font-family: Calibre-regular- }
+
+
+/*Template:  Webster - Responsive Multi-purpose HTML5 Template
+Author: potenzaglobalsolutions.com
+Design and Developed by: potenzaglobalsolutions.com
+
+NOTE: This file contains Section titles CSS.*/
+
+
+/*************************
+    Section title 1
+***********************/
+.section-title { margin-bottom: 40px; position: relative; }
+.section-title .title { margin-top: 0px; position: relative; }
+.section-title .subtitle { font-size: 12px; letter-spacing: 1px; font-weight: 700; margin-bottom: 10px; text-transform: uppercase;}
+.section-title p { margin-bottom: 0px; font-size: 20px; font-weight: 400; }
+
+/*line*/
+.section-title.line .title { padding-bottom: 20px; }
+.section-title.line .title:before { position: absolute; left: 0; bottom: 0; width: 80px; height: 3px; background: #42A042; content: "";  }
+
+ /*title center */
+.section-title.center .title:before { left: 50%; margin-left: -35px; }
+.section-title.right .title:before { right: 0; left: inherit; margin-left: inherit; }
+
+/*bg */
+.section-title span.theme-bg { background: #42A042; color: #ffffff; padding: 0 15px; }
+
+/*dark-bg*/
+.section-title.dark-bg .title { color: #ffffff; }
+.section-title.dark-bg .subtitle { color: #ffffff; }
+.section-title.dark-bg p { color: #ffffff; }
+.section-title.dark-bg.line .title:before { background: #ffffff; }
+.section-title.dark-bg span.theme-bg { background: #ffffff; color: #42A042; }
+
+.title-effect  { z-index: 99; position: relative; display: inline-block; transition: transform 0.5s, color 0.5s; transition-timing-function: cubic-bezier(0.2,1,0.3,1); }
+/*.title-effect::before { content: ''; position: absolute; z-index: -1; width: 100%; height: 50%; left: 0; bottom: 0;	opacity: 0.2; transform: scale3d(0,1,1);*/
+/*	transform-origin: 0% 50%; transition: transform 0.5s; transition-timing-function: cubic-bezier(0.2,1,0.3,1); }*/
+.section-title:nth-child(odd) .title-effect::before { background: #42A042; }
+
+section:hover .title-effect::before, section:focus .title-effect::before {transform: scale3d(1,1,1); }
+section:hover .title-effect:nth-child(even), section:focus .title-effect:nth-child(even) { color: #42A042; }
+
+ /*dark*/
+section:nth-child(odd) .title-effect.dark::before { background: #ffffff; }
+section:hover .title-effect.dark:nth-child(even), section:focus .title-effect.dark:nth-child(even) { color: #ffffff; }
+
+.section-title.line-dabble .title { position: relative; padding-bottom: 15px; }
+.section-title.line-dabble .title:before {  content: ''; position: absolute; left: 0; bottom: 0; width: 100%; height: 2px;  z-index: 1; background: rgba(234, 234, 234, 1); }
+.section-title.line-dabble .title:after {  content: ''; position: absolute; left: 0; bottom: 0; width:40px; height: 2px;  z-index: 2; background: #42A042; }
+
+/*
+Template:  Webster - Responsive Multi-purpose HTML5 Template
+Author: potenzaglobalsolutions.com
+Design and Developed by: potenzaglobalsolutions.com
+
+NOTE: This file contains Progress Bar (Skill) CSS.
+*/
+
+/*************************
+        skills
+*************************/
+.skill{ position: relative; width:100%; height:7px; margin:40px 0 20px 0; background-color:#eceff8; border-radius: 4px;}
+.skill:not(:first-child){margin-top:64px;}
+.skill-bar  { position: relative; height:100%; border-radius: 4px; padding:0px; background:#42A042; box-shadow:none; transition: width .9s ease; -webkit-transition: width .9s ease; -o-transition: width .9s ease; -ms-transition: width .9s ease; -moz-transition: width .9s ease; }
+ .progress-bar { position: relative; height:100%; border-radius: 4px; padding:0px; background-color: #42A042; box-shadow:none;   }
+.skill-title{color:#353535; font-size:18px;  font-weight:500;  position:absolute; text-align:left; margin-left:0;  margin-top:-28px;}
+.skill-title > i{margin-right:8px;}
+.skill-bar .progress-number,
+.skill-bar .progress-type {color:#353535; float:right; margin-top:-18px; position:absolute; right: 0; top:-10px; font-size:15px; font-weight: 600;}
+.skill-bar .progress-number { right: 14px; }
+
+/* Dark Background */
+.text-white .skill{background:rgba(255,255,255,0.25);}
+.text-white .skill-title{color:#ffffff;}
+.text-white .skill-bar .progress-number,
+.text-white .skill-bar .progress-type{color:#ffffff;}
+.theme-bg .skill-bar, .services-text-box-blue .skill-bar{background: #ffffff}
+
+/* big Skills */
+.skill.skill-big { height:12px; }
+
+/* Medium Skills */
+.skill.skill-medium { height:8px; }
+
+/* Small Skills */
+.skill.skill-small { height:3px; }
+
+/* Dark Skills */
+.skill.skill-dark .skill-bar { background:#353535; }
+/*
+Template:  Webster - Responsive Multi-purpose HTML5 Template
+Author: potenzaglobalsolutions.com
+Design and Developed by: potenzaglobalsolutions.com
+
+NOTE: This file contains Pricing CSS.
+*/
+
+/***************************
+        Our Pricing
+***************************/
+.pricing-top { box-shadow: 0 0 40px rgba(0, 0, 0, 0.05); padding: 30px; border-top: 8px solid #1a1a1a; border-radius: 6px; }
+.pricing-prize h2 span { font-size: 18px; }
+.pricing-prize { margin: 30px 0; }
+.pricing-content {   width: 70%; margin: 40px auto 0; }
+.pricing-content .pricing-table-list ul li { line-height: 56px; font-weight: 600; }
+.pricing-content .pricing-table-list ul li i { width: 25px; display: inline-block; color: #42A042; }
+.pricing-content .pricing-table-list ul li i.fa-times { color: red; }
+.pricing-content .pricing-table-list ul li span { margin-top: 16px; text-align: center; font-size: 14px; line-height: 24px; box-shadow: 0 6px 14px rgba(0, 0, 0, 0.09); width: 24px; height: 24px; background: transparent; border-radius: 50%; }
+.pricing-content .pricing-table-list ul li span i { padding-right: 0; }
+.pricing-table.active { margin-top: -7px;  }
+.pricing-table.active .pricing-top { border-top: 16px solid #42A042; box-shadow: 0 0 50px rgba(0, 0, 0, 0.05); padding-bottom: 30px; }
+.pricing-table.active .pricing-top a.button { padding: 12px 60px; font-size: 20px; }
+.pricing-table.active .pricing-prize { margin: 30px 0 20px; }
+
+/*style-2*/
+.pricing-table.boxed {  box-shadow: 0 0 40px rgba(0, 0, 0, 0.05); padding: 30px; border-top: 8px solid #1a1a1a; border-radius: 6px;  }
+.pricing-table.boxed .pricing-top { box-shadow: none; border: 0; padding: inherit; border-radius: inherit; padding: 0; }
+.pricing-table.boxed .pricing-content { width: inherit; margin:0 ; margin-top: 20px; }
+.pricing-table.active.boxed { border-top: 16px solid #42A042; box-shadow: 0 0 50px rgba(0, 0, 0, 0.05); }
+
+/*price simple*/
+.price { list-style-type: none; border: 1px solid #eee; margin: 0; padding: 0;  -webkit-transition: 0.3s; transition: 0.3s; border:0; }
+.price:hover {  box-shadow: 0 0 40px rgba(0, 0, 0, 0.05); }
+.price .header { background-color: #111; color: #ffffff; font-size: 25px; }
+.price li { border-bottom: 1px solid #eee; padding: 20px; text-align: center; }
+.price .grey { background-color: #eee; font-size: 20px; }
+.price.active .header { background: #42A042; }
+
+/*membership-pricing*/
+.membership-pricing-table { width: 100%; }
+.membership-pricing-table table { width: 100%; }
+.membership-pricing-table table .icon-no,.membership-pricing-table table .icon-yes { font-size: 22px; }
+.membership-pricing-table table .icon-no { color: #a93717; }
+.membership-pricing-table table .icon-yes { color: #209e61; }
+.membership-pricing-table table .plan-header { text-align: center; font-size: 48px; border: 1px solid #e2e2e2; padding: 25px 0; }
+.membership-pricing-table table .plan-header-free { background-color: #eee; color: #555; }
+.membership-pricing-table table .plan-header-blue { color: #fff; background-color: #111; border-color: #000; }
+.membership-pricing-table table .plan-header-standard { color: #fff; background-color: #42A042; border-color: #42A042; }
+.membership-pricing-table table td { text-align: center; width: 15%; padding: 7px 10px; background-color: #fafafa; font-size: 14px; -webkit-box-shadow: 0 1px 0 #fff inset;
+    box-shadow: 0 1px 0 #fff inset; }
+.membership-pricing-table table,.membership-pricing-table table td { border: 1px solid #ebebeb; }
+.membership-pricing-table table tr td:first-child { background-color: transparent; text-align: right; width: 14%; }
+.membership-pricing-table table tr td:nth-child(5) { background-color: #FFF; }
+.membership-pricing-table table tr:first-child td,.membership-pricing-table table tr:nth-child(2) td { -webkit-box-shadow: none; box-shadow: none; }
+.membership-pricing-table table tr:first-child th:first-child { border-top-color: transparent; border-left-color: transparent; border-right-color: #e2e2e2; }
+.membership-pricing-table table tr:first-child th .pricing-plan-name { font-size: 22px; }
+.membership-pricing-table table tr:first-child th .pricing-plan-price { line-height: 35px; }
+.membership-pricing-table table tr:first-child th .pricing-plan-price>sup { font-size: 45%; }
+.membership-pricing-table table tr:first-child th .pricing-plan-price>i { font-size: 30%; }
+.membership-pricing-table table tr:first-child th .pricing-plan-period { margin-top:  10px; font-size: 25%; }
+.membership-pricing-table table .header-plan-inner { position: relative; }
+.membership-pricing-table table .recommended-plan-ribbon { box-sizing: content-box; background-color: #ffffff; color: #42A042; position: absolute;
+    padding: 3px 6px; font-size: 11px!important; font-weight: 500; left: -6px; top: -22px; z-index: 99; width: 100%; -webkit-box-shadow: 0 -1px #c2284c inset;
+    box-shadow: 0 -1px #ffffff inset; text-shadow: 0 -1px #ffffff; }
+.membership-pricing-table table .recommended-plan-ribbon:before { border: solid; border-color: #ffffff transparent; border-width: 6px 0 0 6px;
+    bottom: -5px; content: ""; left: 0; position: absolute; z-index: 90; }
+.membership-pricing-table table .recommended-plan-ribbon:after { border: solid; border-color: #ffffff transparent; border-width: 6px 6px 0 0;
+    bottom: -5px; content: ""; right: 0; position: absolute; z-index: 90; }
+.membership-pricing-table table .plan-head { box-sizing: content-box; background-color: #ff9c00; border: 1px solid #cf7300; position: absolute; top: -33px;
+    left: -1px; height: 30px; width: 100%; border-bottom: none; }
+.membership-pricing-table table td i.fa-times-circle-o { color: red; }
+/*
+Template:  Webster - Responsive Multi-purpose HTML5 Template
+Author: potenzaglobalsolutions.com
+Design and Developed by: potenzaglobalsolutions.com
+
+NOTE: This file contains Pie chart CSS.
+*/
+
+
+/***************************
+      pie-chart
+***************************/
+.round-chart { display: inline-block; position: relative; text-align: center; margin-bottom: 20px; }
+.round-chart span, .round-chart i { display: inline-block; font-size: 28px; z-index: 2; font-weight: 600; position: absolute; }
+.round-chart.white span, .round-chart.white i { color: #ffffff; }
+/*
+Template:  Webster - Responsive Multi-purpose HTML5 Template
+Author: potenzaglobalsolutions.com
+Design and Developed by: potenzaglobalsolutions.com
+
+NOTE: This file contains Page Title CSS.
+*/
+
+/*************************************
+       page-title
+**************************************/
+.page-title { display: block; padding-top:20px; padding-bottom: 100px; position: relative; }
+.page-title.bg-overlay-black-60:before  { z-index: 0; }
+.page-title .container { height: 100%; position: relative; }
+.page-title span { text-transform: capitalize; }
+.page-title h1 { text-transform: capitalize; color: #ffffff; font-weight: 600; }
+.page-title p { font-size: 18px; text-transform: none; color: #ffffff; }
+.page-title .page-title-name { display: inline-block; width: 60%; }
+.page-title .page-breadcrumb { float: right; width: 40%; text-align: right; }
+ul.page-breadcrumb li span {  color: #fff; font-size: 14px; text-transform: capitalize; }
+ul.page-breadcrumb { padding-top: 30px; }
+ul.page-breadcrumb li { color: #fff; display: inline-block; list-style: none; }
+ul.page-breadcrumb li i { font-size: 14px; padding: 0 7px;}
+ul.page-breadcrumb li a { color: #fff; font-size: 14px; text-transform: capitalize; }
+ul.page-breadcrumb li a:hover {  color: #42A042; }
+.page-title.gray-bg h1, .page-title.gray-bg p { color: #323232; }
+.page-title.gray-bg ul.page-breadcrumb li a { color: #323232; }
+.page-title.gray-bg ul.page-breadcrumb li a:hover { color: #42A042; }
+.page-title.gray-bg ul.page-breadcrumb li { color: #323232; }
+.page-title.gray-bg ul.page-breadcrumb li span { color: #42A042; }
+
+/*center*/
+.page-title.center { text-align: center; }
+.page-title.center .page-title-name { display: block; width: inherit; }
+.page-title.center .page-breadcrumb { float: none; width: inherit; text-align: center; }
+
+/*right*/
+.page-title.right { clear: both; }
+.page-title.right .page-title-name { display: inline-block; float: right; text-align: right; }
+.page-title.right .page-breadcrumb { float: left; text-align: left; }
+
+/*small*/
+.page-title.small { padding-top:20px; padding-bottom: 20px; position: relative; }
+.page-title.small h1 { font-size: 22px; line-height: 24px; margin-bottom: 0px; margin-top: 8px; }
+.page-title.small .page-breadcrumb { padding-top: 10px; }
+
+/*gray-bg */
+.page-title.pattern h1, .page-title.pattern p { color: #323232; }
+.page-title.pattern ul.page-breadcrumb li a { color: #323232; }
+.page-title.pattern ul.page-breadcrumb li a:hover { color: #42A042; }
+.page-title.pattern ul.page-breadcrumb li { color: #323232; }
+.page-title.pattern ul.page-breadcrumb li span { color: #42A042; }
+
+/*light-overlay*/
+.page-title.light-overlay { position: relative; padding-top: 250px; }
+.page-title.light-overlay:before { position: absolute; width: 100%; height: 100%; bottom: 0; left: 0; right: 0; content: ""; background: url(../images/white-overlay.png);  background-repeat: repeat-x; background-position: bottom; }
+.page-title.light-overlay h1, .page-title.light-overlay p { color: #323232; }
+.page-title.light-overlay ul.page-breadcrumb li a { color: #323232; }
+.page-title.light-overlay ul.page-breadcrumb li a:hover { color: #42A042; }
+.page-title.light-overlay ul.page-breadcrumb li { color: #323232; }
+.page-title.light-overlay ul.page-breadcrumb li span { color: #42A042; }
+
+
+/*dark-overlay*/
+.page-title.dark-overlay { position: relative; padding-top: 360px; }
+.page-title.dark-overlay:before { position: absolute; width: 100%; height: 100%; bottom: 0; left: 0; right: 0; content: ""; background: url(../images/dark-overlay.png);  background-repeat: repeat-x; background-position: bottom; }
+
+/*
+Template:  Webster - Responsive Multi-purpose HTML5 Template
+Author: potenzaglobalsolutions.com
+Design and Developed by: potenzaglobalsolutions.com
+
+NOTE: This file contains Owl Carousel CSS.
+*/
+
+/***************************
+        Owl Carousel
+***************************/
+.owl-carousel .owl-item img { width: auto; }
+.owl-carousel .owl-nav {  cursor: pointer; z-index: 999; width: 100%; }
+.owl-carousel .owl-nav .owl-prev,
+.owl-carousel .owl-nav .owl-next{ display: block; position: absolute; text-indent: inherit; width: auto; cursor: pointer; transition:all 0.2s ease-in-out; -webkit-transition:all 0.2s ease-in-out; -o-transition:all 0.2s ease-in-out; -moz-transition:all 0.2s ease-in-out; -ms-transition:all 0.2s ease-in-out;}
+.owl-carousel .owl-nav .owl-prev { left:10px;  display: block; position: absolute; text-indent: inherit; top: 50%; transform: translateY(-50%); -webkit-transform: translateY(-50%); -o-transform: translateY(-50%); -ms-transform: translateY(-50%); -moz-transform: translateY(-50%);   }
+.owl-carousel .owl-nav .owl-next { right:10px; display: block; position: absolute; text-indent: inherit; top: 50%; transform: translateY(-50%); -webkit-transform: translateY(-50%); -o-transform: translateY(-50%); -ms-transform: translateY(-50%); -moz-transform: translateY(-50%);  }
+.owl-carousel .owl-nav i{ font-size: 20px; width:36px; height:36px; line-height:36px; display: inline-block; color:#ffffff; border-radius: 3px; background:#42A042; border:0px solid #3d3d3d; font-weight:normal; text-align: center; -webkit-transition:all 0.2s ease-in-out; -moz-transition:all 0.2s ease-in-out; transition:all 0.2s ease-in-out;}
+.owl-carousel .owl-nav i:hover{background:#333; color:#ffffff;}
+.bottom-nav .owl-nav { bottom: 0; top: inherit; }
+.bottom-nav .owl-nav .owl-next { right: 46%; bottom: -20px; top: inherit; transform: inherit; }
+.bottom-nav .owl-nav .owl-prev { left: 46%; bottom: -20px; top: inherit; transform: inherit; }
+ .owl-carousel .owl-nav .owl-next, .owl-carousel .owl-nav .owl-prev { margin: 0 !important; }
+
+/* Dots */
+.owl-carousel .owl-controls .owl-dot { margin: 0; display: inline-block; }
+.owl-carousel .owl-dots { display: inline-block;  /*position: absolute; bottom: -35px; */ margin-top: 20px; text-indent: inherit; width: 100%; cursor: pointer; text-align: center; }
+.owl-carousel .owl-dots .owl-dot span { background: #ddd; display: inline-block; width: 12px; min-height: 12px; margin-top: 5px; border-radius: 3px; transition:all 0.5s ease-in-out; -webkit-transition:all 0.5s ease-in-out; -o-transition:all 0.5s ease-in-out; -moz-transition:all 0.5s ease-in-out; -ms-transition:all 0.5s ease-in-out; cursor: pointer; }
+.owl-carousel .owl-dots .owl-dot:hover span, .owl-carousel .owl-dots .owl-dot.active span { background:#42A042; min-height: 17px; margin-top: 0; }
+.owl-carousel .owl-dot, .owl-carousel .owl-nav .owl-next, .owl-carousel .owl-nav .owl-prev { display: inline-block; margin: 14px 2px 0; }
+.bottom-center-dots .owl-dots { bottom: 30px !important; position: absolute;  }
+.bottom-center-dots .owl-dots .owl-dot span  { background: #ffffff; }
+.bottom-right-dots .owl-dots { bottom: 30px !important; position: absolute; right: 30px; width: auto; }
+.bottom-right-dots .owl-dots .owl-dot span  { background: #ffffff; }
+/*
+Template:  Webster - Responsive Multi-purpose HTML5 Template
+Author: potenzaglobalsolutions.com
+Design and Developed by: potenzaglobalsolutions.com
+
+NOTE: This file contains onload modal CSS.
+*/
+
+.mfp-container { cursor: url("../images/close.png") 25 25, pointer; }
+
+/*modal-simple-content*/
+.modal-simple-content { background: #ffffff; padding: 50px 30px; border-radius: 3px; margin: 0 auto; max-width: 600px; }
+
+/*modal-shop*/
+.modal-shop { background: #323232; padding: 50px 60px; border-radius: 3px; margin: 0 auto; max-width: 650px; }
+.modal-shop h2 { font-size: 60px; line-height: 60px; color: #ffffff; font-weight: 500; margin-top: 15px; }
+.modal-shop span { display: block; }
+.modal-shop p { color: rgba(255,255,255,0.5); }
+.modal-shop .button  { padding: 12px 20px; }
+
+/*modal-subscribe*/
+.modal-subscribe { background: #ffffff;  margin: 0 auto; max-width: 500px; }
+.modal-subscribe .subscribe-icon { height: 300px; background: #42A042; display: block; overflow: hidden; }
+.modal-subscribe .subscribe-icon i { color: rgba(0, 0, 0, 0.2); font-size: 270px; transform: rotate(-30deg); -o-transform: rotate(-30deg); -ms-transform: rotate(-30deg); -moz-transform: rotate(-30deg); }
+.modal-subscribe .subscribe-content { padding: 30px; }
+.modal-subscribe .subscribe-content p { color: #323232; }
+
+/*modal-login*/
+.modal-login { background: #ffffff; border-radius: 3px; margin: 0 auto; max-width: 600px; }
+.modal-login .login-bg .login-title { border-radius: 0; }
+
+/*modal-register*/
+.modal-register { background: #ffffff;  border-radius: 3px; margin: 0 auto; max-width: 600px; }
+.modal-register .register-title { padding: 40px 30px; text-align: center; }
+.modal-register .register-title img { height: 40px; }
+.modal-register .register-form { padding: 50px; }
+
+/*modal-video*/
+.modal-video { background: #ffffff; padding: 50px 30px; border-radius: 3px; margin: 0 auto; max-width: 600px; }
+.image-source-link { color: #98C3D1;  }
+
+/*mfp-with-zoom*/
+.mfp-with-zoom .mfp-container,
+.mfp-with-zoom.mfp-bg {	opacity: 0;	-webkit-backface-visibility: hidden;/* ideally, transition speed should match zoom duration */
+	-webkit-transition: all 0.3s ease-out; 	-moz-transition: all 0.3s ease-out; -o-transition: all 0.3s ease-out; transition: all 0.3s ease-out; }
+.mfp-with-zoom.mfp-ready .mfp-container { opacity: 1; }
+.mfp-with-zoom.mfp-ready.mfp-bg { opacity: 0.8; }
+.mfp-with-zoom.mfp-removing .mfp-container,
+.mfp-with-zoom.mfp-removing.mfp-bg { opacity: 0; }
+/*
+Template:  Webster - Responsive Multi-purpose HTML5 Template
+Author: potenzaglobalsolutions.com
+Design and Developed by: potenzaglobalsolutions.com
+
+NOTE: This file contains nice select CSS.
+*/
+
+/*************************
+    nice-select
+*************************/
+.nice-select { -webkit-tap-highlight-color: transparent; background-color: #f6f7f8; border-radius: 3px; border: solid 1px #f6f7f8; box-sizing: border-box;
+  clear: both; cursor: pointer; display: block; float: left; font-family: inherit; font-size: 14px; font-weight: normal; height: 50px; line-height: 47px;  outline: none;
+  padding-left: 20px; padding-right: 30px; position: relative; text-align: left !important; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out;  -webkit-user-select: none;  -moz-user-select: none; -ms-user-select: none; user-select: none; white-space: nowrap; width: auto; }
+.nice-select:hover { border-color: #d0dae5; }
+.nice-select:active, .nice-select.open, .nice-select:focus { border-color: #88bfff; }
+.nice-select:after { border-bottom: 2px solid #90a1b5; border-right: 2px solid #90a1b5; content: ''; display: block; height: 5px; margin-top: -4px; pointer-events: none;
+    position: absolute; right: 22px; top: 50%; -webkit-transform-origin: 66% 66%; -ms-transform-origin: 66% 66%; transform-origin: 66% 66%; -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg); transform: rotate(45deg); -webkit-transition: all 0.15s ease-in-out; transition: all 0.15s ease-in-out; width: 5px; }
+.nice-select.open:after { -webkit-transform: rotate(-135deg); -ms-transform: rotate(-135deg); transform: rotate(-135deg); }
+.nice-select.open .list { opacity: 1; pointer-events: auto; -webkit-transform: scale(1) translateY(0); -ms-transform: scale(1) translateY(0); transform: scale(1) translateY(0); }
+.nice-select.disabled { border-color: #e7ecf2; color: #90a1b5; pointer-events: none; }
+.nice-select.disabled:after { border-color: #cdd5de; }
+.nice-select.wide { width: 100%; }
+.nice-select.wide .list { left: 0 !important; right: 0 !important; }
+.nice-select.right { float: right; }
+.nice-select.right .list { left: auto; right: 0; }
+.nice-select.small { font-size: 12px; height: 36px; line-height: 34px; }
+.nice-select.small:after { height: 4px; width: 4px; }
+.nice-select.small .option { line-height: 34px; min-height: 34px; }
+.nice-select .list { max-height: 300px; overflow-y: auto; min-width: 100px; background-color: #fff; border-radius: 3px; box-shadow: 0 0 0 1px rgba(68, 88, 112, 0.11); box-sizing: border-box; margin-top: 4px; opacity: 0; padding: 0; pointer-events: none; position: absolute; top: 100%; left: 0; -webkit-transform-origin: 50% 0; -ms-transform-origin: 50% 0; transform-origin: 50% 0; -webkit-transform: scale(0.75) translateY(-21px); -ms-transform: scale(0.75) translateY(-21px); transform: scale(0.75) translateY(-21px); -webkit-transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out; transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out; z-index: 9; }
+.nice-select .list:hover .option:not(:hover) { background-color: transparent !important; }
+.nice-select .option { cursor: pointer; font-weight: 400; line-height: 40px; list-style: none; min-height: 40px; outline: none; padding-left: 18px; padding-right: 29px; text-align: left;
+    -webkit-transition: all 0.2s; transition: all 0.2s; }
+.nice-select .option:hover, .nice-select .option.focus, .nice-select .option.selected.focus { background-color: #f6f7f9; }
+.nice-select .option.selected { font-weight: bold; }
+.nice-select .option.disabled { background-color: transparent; color: #90a1b5; cursor: not-allowed; }
+.nice-select:active, .nice-select.open, .nice-select:focus { border-color: #ffffff !important; }
+/*
+Template:  Webster - Responsive Multi-purpose HTML5 Template
+Author: potenzaglobalsolutions.com
+Design and Developed by: potenzaglobalsolutions.com
+
+NOTE: This file contains Bootstrap Typography CSS.
+*/
+
+.pager { margin: 0; }
+.affix { left: 0; right: 0; }
+.btn-primary { background-color: #42A042; border-color: #42A042; }
+.btn-primary:hover { background-color: #323232; border-color: #323232; color: #ffffff; }
+.btn-primary.focus, .btn-primary:focus { background-color: #323232; border-color: #323232; color: #ffffff; }
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover { background-color: #42A042; }
+select.input-sm { height: 50px; }
+.nice-select:active, .nice-select.open, .nice-select:focus { border-color:#42A042 !important; }
+.list-group-item.active>.badge, .nav-pills>.active>a>.badge, .btn-primary .badge { color: #42A042;  }
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover { border-color: #42A042; }
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover { background-color: #42A042; border-color: #42A042 }
+.bootstrap-datetimepicker-widget table td.active, .bootstrap-datetimepicker-widget table td.active:hover { background: #42A042; }
+.input-group-prepend:last-child { border: 0; }
+.input-group-prepend { border-left:1px solid #e0e0e0 !important; padding: 16px 26px 16px 22px; background: #f6f7f8; border-radius: 3px; }
+.datetimepicker .form-control:focus { box-shadow: none; background-color: #f6f7f8; }
+.modal1 .mfp-close { display: none; }
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand { margin-left: 0; }
+.dropdown-item.active, .dropdown-item:active { background-color: #42A042;  }
+.bootstrap-datetimepicker-widget table td span.active { background-color: #42A042;  }
+
+/*************************
+    Process step
+*************************/
+.stepwizard-step p { margin-top: 10px; }
+.stepwizard-row { display: table-row;}
+.stepwizard { display: table; width: 100%; position: relative; }
+.stepwizard-step button[disabled] { opacity: 1 !important; filter: alpha(opacity=100) !important; }
+.stepwizard-row:before { top: 24px; bottom: 0; position: absolute; content: " "; width: 100%; height: 1px; background-color: #ccc; }
+.stepwizard-step { display: table-cell; text-align: center; position: relative; }
+.btn-circle { width: 50px; height: 50px; text-align: center; padding: 6px 0; font-size: 12px; line-height: 1.428571429; border-radius: 3px; }
+
+/*************************
+    responsive-utilities
+*************************/
+.responsive-utilities .is-visible { color: #468847; background-color: #dff0d8!important; }
+.responsive-utilities .is-hidden { color: #ccc; background-color: #f9f9f9!important; }
+.hidden-on .col-6 .visible, .visible-on .col-6 .visible { color: #468847; background-color: #dff0d8; border: 1px solid #d6e9c6; }
+
+/*************************************
+          animations
+ **************************************/
+.bg { padding: 30px; border-radius: 3px; margin-bottom: 30px; }
+.bg-01 { background: #fe80c0; }
+.bg-02 { background: #b24a7d; }
+.bg-03 { background: #76bcff; }
+.bg-04 { background: #8d708e; }
+.bg-05 { background: #807fff; }
+.bg-06 { background: #e74c3c; }
+.bg-07 { background: #16a085; }
+.bg-08 { background: #f1c40f; }
+.bg-09 { background: #27ae60; }
+.bg-10 { background: #1abc9c; }
+.bg-11 { background: #9b59b6; }
+.bg-12 { background: #3498db; }
+.bg-13 { background: #ff6d3a; }
+.bg-14 { background: #2ecc71; }
+.bg-15 { background: #32cdc7; }
+.bg-16 { background: #009a9a; }
+
+/*************************
+	   columns
+*************************/
+.columns .gray-bg { padding: 15px; border-radius: 3px;}
+.columns .gray-bg h5 { margin-bottom: 0px; }
+
+/*************************
+  data table
+*************************/
+.table { margin-bottom: 0; }
+.table td, .table th { vertical-align: middle; }
+.table-responsive>.table-bordered { border:1px solid #dee2e6; }
+.table-bordered tbody tr td, .table-bordered thead tr th { border-color: #eee;  font-size: 14px; padding: 12px 20px; }
+.table-1 thead { background: #42A042; color: #fff; text-align: center; }
+.table-1 thead tr th { border: medium none;   font-weight: normal;  text-align: center;}
+.table-1 tbody tr td { color: #7e8890; font-size: 14px; padding: 12px 0; text-align: center; }
+.table-2.table thead { background: transparent; color: #42A042; font-weight: 600; text-align: center; }
+.table-2.table thead tr th { border: 1px solid #42A042 !important; text-align: center; }
+.table-3.table thead { background: #dfdfdf; color: #323232; font-weight: 600; text-align: center; }
+.table-3.table thead tr th { border:none; text-align: center; }
+
+/*************************
+	Typography
+*************************/
+.typography del, s, u { font-size: 14px; }
+.typography .mark, mark { background: #42A042; color: #fff;  }
+del, mark { background: #42A042; color: #ffffff; padding: 0 5px; margin-right: 3px; }
+
+
+/*************************
+   alerts and callouts
+*************************/
+.alerts-and-callouts  { font-size: 14px;  }
+.alerts-and-callouts .bs-callout { padding: 20px; margin: 20px 0; border: 1px solid #eee; border-left-width: 5px; border-radius: 3px; }
+.alerts-and-callouts .bs-callout h4 {  margin-top: 0; margin-bottom: 5px; }
+.alerts-and-callouts .bs-callout p:last-child { margin-bottom: 0; }
+.alerts-and-callouts .bs-callout code { border-radius: 3px; }
+.alerts-and-callouts .bs-callout+.bs-callout { margin-top: -5px; }
+.alerts-and-callouts .bs-callout-default { border-left-color: #777; }
+.alerts-and-callouts .bs-callout-default h4 { color: #777; }
+.alerts-and-callouts .bs-callout-primary { border-left-color: #428bca; }
+.alerts-and-callouts .bs-callout-primary h4 { color: #428bca; }
+.alerts-and-callouts .bs-callout-success { border-left-color: #5cb85c; }
+.alerts-and-callouts .bs-callout-success h4 { color: #5cb85c; }
+.alerts-and-callouts .bs-callout-danger { border-left-color: #d9534f; }
+.alerts-and-callouts .bs-callout-danger h4 { color: #d9534f; }
+.alerts-and-callouts .bs-callout-warning { border-left-color: #f0ad4e; }
+.alerts-and-callouts .bs-callout-warning h4 { color: #f0ad4e; }
+.alerts-and-callouts .bs-callout-info { border-left-color: #5bc0de; }
+.alerts-and-callouts .bs-callout-info h4 { color: #5bc0de; }
+
+@media screen and (max-width: 767px) {
+.animated  { margin-top: 30px; }
+.data-table .table tbody tr td { padding: 12px 10px; }
+.tab-2 #tabs .tabs { width: 100%; }
+.nav-tabs li a { font-size: 14px; }
+.tab-1 li { margin-right: 2px; }
+}
+
+ /*************************
+        isotope
+*************************/
+.isotope-item{z-index:2}.isotope-hidden.isotope-item{pointer-events:none;z-index:1}.isotope,.isotope .isotope-item{-webkit-transition-duration:.8s;-moz-transition-duration:.8s;-ms-transition-duration:.8s;-o-transition-duration:.8s;transition-duration:.8s}.isotope{-webkit-transition-property:height,width;-moz-transition-property:height,width;-ms-transition-property:height,width;-o-transition-property:height,width;transition-property:height,width}.isotope .isotope-item{-webkit-transition-property:-webkit-transform,opacity;-moz-transition-property:-moz-transform,opacity;-ms-transition-property:-ms-transform,opacity;-o-transition-property:-o-transform,opacity;transition-property:transform,opacity}.isotope .isotope-item.no-transition,.isotope.no-transition,.isotope.no-transition .isotope-item{-webkit-transition-duration:0s;-moz-transition-duration:0s;-ms-transition-duration:0s;-o-transition-duration:0s;transition-duration:0s}
+
+ /*************************
+        lists panels
+*************************/
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover { background-color: #42A042; border-color: #42A042;  }
+.panel-primary { border-color: #42A042;  }
+.panel-primary>.panel-heading  {  background-color: #42A042; border-color: #42A042; }
+.badge-primary, .nav-pills .nav-link.active, .nav-pills .show>.nav-link, .bg-primary { background: #42A042 !important; }
+.border-primary { border-color: #42A042 !important; }
+
+ /*************************
+        lists panels
+*************************/
+.modal { z-index: 99999; }
+.modal-backdrop { z-index: 9999; }
+.modal-dialog { margin: 100px auto; }
+.modal-header, .modal-footer { border: 0; }
+.modal-header, .modal-body { padding: 30px 30px 0 30px; }
+.modal-footer { padding: 30px 30px 30px 30px;  text-align: left; }
+.modal-header .close { position: relative; z-index: 99; }
+
+ /*************************
+       extra class
+*************************/
+.image-content { float: left; width: 50%; margin: 0 20px 20px 0 ; }
+select.form-control-sm:not([size]):not([multiple]) { height: calc(1.8125rem + 22px); }
+.dataTables_length .form-control { padding: 15px 8px 15px 20px; }
+div.dataTables_wrapper div.dataTables_paginate, div.dataTables_wrapper div.dataTables_info { margin-top: 15px; }

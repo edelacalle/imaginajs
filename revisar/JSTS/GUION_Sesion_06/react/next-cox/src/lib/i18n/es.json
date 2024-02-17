@@ -1,0 +1,34 @@
+
+{
+    "common":{
+      "#myapp": "Mi aplicacion",
+      "title":"titulo",
+      "about":"acerca de",
+      "news":"noticias",
+      "#copyright":"©Copyright 2023 ® Cox Energy | Todos los Derechos Reservados",
+      "from":"de",
+      "to":"para",
+      "subject":"asunto"
+    },
+    "noticias":{
+      "1":"COX en los medios"
+    },
+    "forms":{
+      "Email sent":"Correo enviado",
+      "Not source valid": "La fuente no es valida",
+      "Contact form":"Formulario de contacto",
+      "You must provide a valid email":"Debes proporcionar un correo valido",
+      "You must provide your request for information": "Debes proporcionar tu solicitud de informacion"
+
+    },
+    "one":"uno",
+    "test":"testeo",
+    "myKey": "es translation",
+    "nested": {
+      "key": "nested es translation"
+    },
+    "index":{
+      "headline":"hola soy headline"
+    }
+
+  }

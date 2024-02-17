@@ -1,0 +1,21 @@
+{
+    "common":{
+      "boton":    { "es":"botón"  ,   "en":"button"},
+      "inicio":   { "es":"inicio" ,   "en":"home"},
+      "acerca":   { "es":"Acerca" ,   "en":"About"}
+      
+    },
+    "menutop":{
+      "#Grupo_Cox":    { "es":"Grupo Cox" ,   "en":"Cox Group"},
+      "#Proyectos":  { "es":"Proyectos" , "en":"Business Model" },
+      "#Inversores COXA":  { "es":"Inversores COXA" , "en":"COXA Investors" }
+    },
+    "footer":{
+      "#acercade":          {"es":"Acerca de" ,"en":"Who We Are"},
+      "#historia":          {"es":"Historia" ,"en":"Our Journey"},
+      "#cadenadevalor":     {"es":"Cadena de Valor" ,"en":"Value Chain"},
+      "#panoramaindustria": {"es":"Panorama Industria" ,"en":"Industry Outlook"},
+      "#articulosdeinteres":{"es":"Articulos de Interés" ,"en":"Relevant Articles"}
+      
+    }
+}

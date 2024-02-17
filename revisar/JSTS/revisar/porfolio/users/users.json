@@ -1,0 +1,16 @@
+{
+ "admin": {
+  "pass": "admin",
+  "role": "admin",
+  "portfolio": []
+ },
+ "guest": {
+  "pass": "guest",
+  "role": "readonly",
+  "portfolio": []
+ },
+ "pepe": {
+  "pass": "pepe",
+  "payload": []
+ }
+}

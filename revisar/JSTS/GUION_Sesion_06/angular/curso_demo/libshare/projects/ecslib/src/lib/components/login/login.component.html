@@ -1,0 +1,34 @@
+<p-card header="Acceso al Sistema V:0.1">
+
+    <div class="p-inputgroup">
+        <span class="p-inputgroup-addon">
+            <i class="pi pi-user"></i>
+        </span>
+        <input [(ngModel)]="user" type="text" pInputText placeholder="Usuario"   />
+    </div>
+
+    <div class="p-inputgroup">
+        <span class="p-inputgroup-addon">
+            <i class="pi pi-key"></i>
+        </span>
+        <input type="password" pPassword  [(ngModel)]="pass" />
+    </div>
+
+    <button (click)="login()" pButton label="Enviar"> </button>
+
+    <p-message *ngIf="status.substring(0,4)=='-ERR'" severity="error" [text]="status"></p-message>
+    <p-message *ngIf="status.substring(0,3)=='+OK'" severity="success" [text]="status"></p-message>
+       
+
+
+    <p>Valores  U:{{user}} P: {{pass}}</p>
+    
+    
+   
+    
+</p-card>
+
+<!--
+    <p>borrame: {{remote | async | json  }}</p>
+-->
+

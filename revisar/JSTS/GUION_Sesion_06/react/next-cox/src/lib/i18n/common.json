@@ -1,0 +1,7 @@
+{
+  "common":{
+    "boton":    { "es":"botón" , "en":"button"},
+    "noticia":  { "es":"noticia" , "en":"new" }
+  }
+
+}

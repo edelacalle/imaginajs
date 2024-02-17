@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "vue": "^2.7.16"
+  },
+  "devDependencies": {
+    "@vue/cli": "^5.0.8"
+  }
+}
