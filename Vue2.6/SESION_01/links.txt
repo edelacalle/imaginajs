@@ -1,0 +1,7 @@
+Inicio:
+https://es.vuejs.org/v2/guide/
+
+https://www.tutorialesprogramacionya.com/vueya/detalleconcepto.php?punto=6&codigo=6&inicio=0
+
+Comunicacion entre Componentes
+https://code.tutsplus.com/es/design-patterns-for-communication-between-vuejs-component--cms-32354t
